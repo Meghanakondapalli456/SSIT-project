@@ -1,0 +1,58 @@
+.whatwewrapper {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1270px;
+  max-height: 758px;
+  padding: 84.5px 72px 117px 98px;
+}
+.heading {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 40px;
+}
+.icon {
+  text-align: center;
+  max-width: 283px;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.web {
+  max-height: 41px;
+  max-width: 41px;
+  padding: 25px 25px 25px 25px;
+}
+.bgcolors {
+  max-height: 90px;
+  max-width: 90px;
+  border-radius: 20px;
+}
+.title {
+  color: black;
+  font-size: large;
+  font-weight: light;
+  text-align: center;
+  margin-top: 10px;
+}
+.description {
+  color: lightgray;
+  font-size: small;
+  font-weight: lighter;
+  margin-top: 5px;
+  text-align: center;
+}
+.icons {
+  display: grid;
+  gap: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1;
+  row-gap: 111px;
+  grid-template-columns: auto auto auto auto;
+}

@@ -1,0 +1,586 @@
+.container{
+  background-color: black;
+  color: white;
+  border-bottom:-60px ;
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn{
+  
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  border-color: rgb(52, 212, 227);
+  cursor: pointer;
+ 
+}
+.logo{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  
+}
+ul{
+  text-align: right; 
+  text-decoration: none;
+}
+li{
+  display: inline;
+  color: white;
+  padding: 10px;
+  
+}
+.image{
+  margin-left: -120px;
+  position: relative;
+  top: 20px;
+}
+.img h4{
+  position: relative;
+  top: -50px;
+  text-align:right;
+}
+.main {
+  background-color:gray;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  text-align: center;
+  border-radius: 20px; 
+  margin-top: 200px;
+  padding: 20px;
+  margin-left: 20px;
+}
+.paragraph{
+  position: relative;
+  top: -450px;
+  padding: 20px;
+  text-align:center;
+
+}
+.paragraph h1{
+  font-size:50px;
+  line-height: 1.4;
+  text-align: center;
+  font: bold;
+ 
+
+}
+.paragraph h6{
+  font-size: 25px;
+  line-height: 1.8;
+  text-align: center;
+  
+  
+
+}
+.highlight{
+  color: aqua;
+}
+.button{
+  background-color: gray;
+  color: white;
+  border-color: white ;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  padding: 10px ; 
+  margin-top: 100px;
+  
+  
+   
+}
+.status{
+  display: flex;
+  justify-content:center ;
+  text-align: center;
+  position: relative;
+  top:-400px ;
+  
+
+}
+.stat{
+ text-align: center; 
+ padding: 20px;
+ font-weight: bold;
+ font-size: large;
+  
+}
+.boxes{
+  background-color: gray;
+  text-align: center;
+  position: relative;
+  top: -800px;
+  width: 300px;
+  height: 350px;
+  float: right;
+  margin-right: 20px;
+  border-radius: 20px;
+
+}
+.box{
+  color: black;
+  background-color: white;
+}
+.box h4{
+  margin-left: 15px;
+}
+.box p{
+  display: flex;
+  margin-left: 100px;
+}
+.box h5{
+  position: relative;
+  top: -37px;
+  margin-left: 150px;
+}
+.icon1{
+  position:relative;
+  top:80px;
+  margin-right:200px ;
+}
+.icon2{
+  position:relative;
+  top:80px;
+  margin-right:200px ;
+}
+
+.about{
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  
+
+ 
+  
+ 
+}
+.lorem h2{
+  color: black;
+  text-align:center;
+  margin-left: 200px;
+
+}
+.shine{
+  color: aqua;
+}
+.lorem p{
+  color:black ;
+  text-align: center;
+  margin-left:200px ;
+}
+.tech{
+  background-color: whitesmoke;
+  display: flex;
+  padding: 20px;
+}
+.tech1{
+  background-color: white;
+  border-radius: 15px;
+  height: 341px;
+  width: 381px;
+  margin-left: 250px;
+}
+.tech1 h4{
+  color: black;
+  text-align: center;
+}
+.tech1 h6{
+  color: lightgray;
+  text-align: center;
+  margin-left: 10px;
+}
+.tech2{
+  background-color:rgb(235, 233, 233) ;
+  border-radius:15px ;
+  height: 341px;
+  width: 381px;
+  margin-left:20px ;
+  align-items: flex-end;
+  
+  
+}
+.tech2 h4{
+  color: black;
+  text-align: center;
+
+}
+.tech2 h6{
+  color: lightgray;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.tech3{
+  background-color:rgb(235, 233, 233) ;
+  border-radius:15px ;
+  height: 341px;
+  width: 381px;
+  margin-left:20px ;
+  align-items: flex-end;
+
+}
+.tech3 h4{
+  color: black;
+  text-align: center;
+}
+.tech3 h6{
+  color: lightgray;
+  text-align: center;
+  margin-left: 10px;
+}
+.does h2{
+  color: black;
+  margin-top: 50px;
+}
+.do{
+  background-color: whitesmoke;
+  display: flex;
+  margin-left: 100px;
+  padding: 50px;
+  flex-wrap: wrap;
+  
+  
+}
+
+.do1 h4{
+  color: black;
+}
+.do1 h6{
+  color: lightgray;
+  text-align: center;
+}
+.do2{
+  margin-left: 200px;
+}
+.do2 h4{
+  color: black;
+}
+.do2 h6{
+  color: lightgray;
+}
+.do3{
+  margin-left: 200px;
+}
+.do3 h4{
+  color: black;
+}
+.do3 h6{
+  color: lightgray;
+}
+.do4{
+  margin-left: 200px;
+}
+.do4 h4{
+  color: black;
+}
+.do4 h6{
+  color: lightgray;
+}
+.do5{
+  margin-left: 10px;
+  
+}
+.do5 h4{
+  color: black;
+}
+.do5 h6{
+  color: lightgray;
+}
+.do6{
+  margin-left: 200px;
+}
+.do6 h4{
+  color: black;
+}
+.do6 h6{
+  color: lightgray;
+}
+.do7{
+  margin-left: 200px;
+}
+.do7 h4{
+  color: black;
+}
+.do7 h6{
+  color: lightgray;
+}
+.do8{
+  margin-left: 200px;
+}
+.do8 h4{
+  color: black;
+}
+.do8 h6{
+  color: lightgray;
+}
+.webinar{
+  color: black;
+  background-color: whitesmoke;
+  height: 500px;
+  text-align: center;
+}
+.web{
+  border-radius:30px ;
+  background-color: white;
+  margin-left: 300px;
+  height: 400px;
+  margin-right: 350px;
+  box-shadow: rgb(66, 182, 228) ;
+  
+
+}
+.web1 {
+  background-color: gray;
+  display: flex;
+  border-radius: 10px;
+  width: 150px;
+  height: 200px; 
+  margin-left: 100px;
+  position: relative;
+  top: 100px;
+  
+
+}
+.web2 {
+  position: relative;
+  top: -120px;
+}
+.web2 h4{
+  text-align: justify;
+  margin-left: 350px;
+}
+.web2 h5{
+  color: lightgray;
+  text-align:center;
+  position: relative;
+  top: 10px;
+  text-align: justify;
+  margin-left: 350px;
+  position: relative;
+  top: -20px;
+
+}
+.web2 h3{
+  text-align: justify;
+  margin-left: 350px;
+  position: relative;
+  top: -20px;
+}
+
+.web2 h6{
+  color: lightgray;
+  text-align: justify;
+  margin-left: 350px;
+  position: relative;
+  top: -40px;
+}
+.web3{
+  display: flex;
+  text-align: center;
+  
+
+}
+.web3-1 h4{
+  color: black;
+  margin-left: 350px;
+  position: relative;
+  top: -180px;
+
+}
+.web3-1 h5{
+  color: black;
+  margin-left:350px ;
+  position: relative;
+  top: -200px; 
+  text-size-adjust:1.8 ;
+
+}
+.bton{
+  background-color: rgb(65, 133, 236);
+  color:white ;
+  border-radius:5px ;
+  border-color:rgb(65, 133, 236) ;
+  margin-left:200px ;
+  position: relative;
+  top: -150px;
+}
+.web4{
+  display: flex;
+  position: relative;
+  top: -90px;
+  margin-left: 350px;
+  
+}
+.news{
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+}
+.news2{
+  display: flex;
+  border-radius: 5px;
+  margin-left:50px ;
+
+}
+.news2-1{
+  text-align: justify;
+}
+.news2-2{
+  text-align: justify;
+  margin-left: 20px;
+}
+.news2-3{
+  text-align: justify;
+  margin-left: 20px;
+}
+.news2-4{
+  text-align: justify;
+  margin-left: 20px;
+}
+.footer{
+  background-color: black;
+  height: 400px;
+
+}
+.keywords{
+   display: flex;
+   height: 250px;
+ 
+}
+.keywords h3{
+  margin-left: 80px;
+}
+.keywords1{
+  position: relative;
+  top: 60px;
+}
+.keywords2-1{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 15px;
+  border-radius: 2px;
+  margin-right: 00px;
+  width: 50px;
+  height: 20px;
+  
+}
+.keywords2-2{
+  background-color: lightslategray;
+  font-size: small;
+  margin-left: 40px;
+  border-radius: 2px;
+  position: relative;
+  top: -1px;
+  width: 50px;
+  height: 20px;
+
+
+  
+}
+.keywords2-3{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+
+  
+}
+.keywords2-4{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+
+  
+}
+.keywords2-5{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+
+  
+}
+.keywords2-6{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 20px;
+  border-radius:2px;
+
+  
+}
+.keywords2-7{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+
+}
+.keywords2-8{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+
+}
+.keywords2-9{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+  width: 50px;
+
+}
+.keywords2-10{
+  background-color: lightslategray;
+  font-size: small;
+  position: relative;
+  top: 20px;
+  border-radius: 2px;
+
+}
+
+
+ 
+
+.search{
+  position: relative;
+  top: -200px;
+
+}
+.search h2{
+  font-weight: 500;
+}
+.search h3{
+  font-style:normal;
+}
+.social-icons{
+  margin-right:-800px ;
+  size: 1000px;
+  position: relative;
+  top:-150px ;
+}
+.complete h4{
+  background-color: white;
+  color: black;
+  height: 50px;
+}
+
+
+
+

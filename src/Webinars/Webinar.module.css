@@ -1,0 +1,77 @@
+.webinarwrapper {
+  background-color: whitesmoke;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+ max-width: 1440px;
+}
+.heading {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 71px;
+  padding: 71px;
+}
+.Webinarcard {
+  background-color: white;
+  color: black;
+  max-width: 1191px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  
+}
+.image {
+  max-width: 421px;
+  max-height: 373px;
+  border-radius: 20px;
+  display: flex;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.author{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+.ceo{
+    color:gray;
+    font-weight: lighter;
+    font-size:medium;
+}
+.designer{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+.description{
+    color: gray;
+    font-size:small ;
+    font-weight: lighter;
+   text-align:left;
+}
+.date{
+    font-size: larger;
+    font-weight: bold;
+}
+.time{
+    color:black;
+    font-size: medium;
+    font-weight: lighter;
+}
+.register{
+    background-color:#2196F3;
+    max-width: 188px;
+    max-height: 96px;
+    border-radius: 5px;
+    border:none;
+    padding: 10px 20px;
+    color: white;
+    font-size:large;
+}

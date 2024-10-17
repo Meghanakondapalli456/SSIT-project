@@ -1,0 +1,59 @@
+.aboutusWrapper {
+  color: black;
+  max-height: 615px;
+  max-width: 1244px;
+  background-color: whitesmoke;
+  padding: 108px 98px 116.5px 98px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+}
+.color {
+  color: aqua;
+}
+.aboutusdescription {
+  color: gray;
+  font-weight: lighter;
+  padding: 34px;
+  text-align: center;
+  margin-left: 190px;
+  margin-right: 190px;
+  max-width: 929px;
+  max-height: 109px;
+}
+.AboutUsCard {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  max-width: 381px;
+  max-height: 349px;
+  padding: 25px 25px 50px 25px;
+  flex: 1;
+}
+.image {
+  max-width: 135px;
+  max-height: 135px;
+}
+.title {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 22px;
+}
+.aboutuscarddescription {
+  color: lightgray;
+  font-weight: lighter;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.aboutuscards {
+  display: flex;
+  gap: 50px;
+}
