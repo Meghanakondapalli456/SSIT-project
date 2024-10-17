@@ -6,9 +6,9 @@ import Whatwe from "./What-we-do/Whatwe";
 function App() {
   return (
     <div className="App">
-      {/* <AboutUs /> */}
-      {/* <Whatwe /> */} 
-      < Webinar />
+      <AboutUs />
+      <Whatwe />
+      <Webinar />
     </div>
   );
 }
