@@ -1,12 +1,10 @@
 .aboutusWrapper {
   color: black;
-  max-height: 615px;
   max-width: 1244px;
   background-color: whitesmoke;
-  padding: 108px 98px 116.5px 98px;
+  padding: 36px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 .heading {
   text-align: center;
@@ -22,10 +20,8 @@
   font-weight: lighter;
   padding: 34px;
   text-align: center;
-  margin-left: 190px;
-  margin-right: 190px;
+  margin: auto;
   max-width: 929px;
-  max-height: 109px;
 }
 .AboutUsCard {
   background-color: white;
@@ -35,6 +31,11 @@
   max-height: 349px;
   padding: 25px 25px 50px 25px;
   flex: 1;
+
+  @media (max-width: 776px) {
+    margin: 20px auto;
+
+  }
 }
 .image {
   max-width: 135px;
@@ -50,10 +51,13 @@
   color: lightgray;
   font-weight: lighter;
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: auto;
 }
 .aboutuscards {
   display: flex;
   gap: 50px;
+
+  @media (max-width: 776px) {
+    display: block;
+  }
 }
