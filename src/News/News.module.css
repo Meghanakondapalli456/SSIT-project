@@ -1,0 +1,81 @@
+.newswrapper {
+  background-color: whitesmoke;
+  color: black;
+  padding: 87px;
+}
+.heading {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+}
+.desc {
+  color: gray;
+  font-size: small;
+  font-weight: lighter;
+  padding: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.view {
+  color: blueviolet;
+  font-size: medium;
+  padding: 14px;
+  text-align: right;
+}
+.news {
+  max-width: 332px;
+  flex: 1;
+  @media (max-width: 776px) {
+    margin: 20px auto;
+
+  }
+
+}
+.image {
+  max-width: 332px;
+  max-height: 281px;
+  row-gap: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  border-radius: 14px;
+}
+.date {
+  color: gray;
+  font-size: small;
+  font-weight: lighter;
+  text-align: left;
+  padding-top: 22px;
+}
+.title {
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 9px;
+}
+.description {
+  color: gray;
+  font-size: small;
+  font-weight: lighter;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 28px;
+}
+.more {
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  padding-top: 25px;
+  text-align: right;
+}
+.paper {
+  display: flex;
+
+  gap: 48px;
+  @media (max-width: 776px) {
+    display: block;
+  }
+}
