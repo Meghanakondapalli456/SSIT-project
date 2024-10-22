@@ -1,0 +1,51 @@
+.wrapper{
+    background-color: black;
+    color: white;
+    max-width: 1442px;
+    max-height:auto;
+    display: flex;
+    padding: 75px 104px 74px 107px;
+    
+}
+.header{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+   
+}
+.grid{
+   display: grid;
+  padding: 11px;
+    gap: 8px;
+    max-width:94px ;
+    max-height: 27px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto;
+    
+
+}
+.searchbar{
+    color: white;
+}
+.src{
+    font-size: medium;
+    
+}
+.verticalLine {
+    width: 1px;                
+    height: 100px;             
+    background-color: white;   
+    margin: 0 20px;           
+  }
+  .srchbtn{
+    background-color: white;
+    max-width: 287px;
+    max-height: 38px;
+    border:none;
+  }
+  .searching{
+    background-color: blueviolet;
+    max-width: 17px;
+    min-height: 17px;
+  }
+
