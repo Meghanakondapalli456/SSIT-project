@@ -1,0 +1,63 @@
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.logo{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.img{
+  margin-left: auto;
+}
+
+hr{
+    color: gray;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.card{
+    background-color: black;
+    color: white;
+}
+.bulb{
+    align-items:right;
+}
+.dec{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.color{
+    color: aqua;
+}
+.btn{
+    color: white;
+    background-color: gray;
+    border: none;
+   width: 193px;
+  height: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    border-radius: 5px;
+}
+.num{
+    background-color: black;
+    color: white;
+}
+.dig{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.lorem{
+    color: gray;
+    font-size: medium;
+    font-weight: lighter;
+}
+.bell{
+    background-color: black;
+    display: flex;
+}
