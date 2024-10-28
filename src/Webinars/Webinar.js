@@ -4,7 +4,7 @@ import Webinarcard from "./Webinarcard";
 
 const Webinar = () => {
   const info=[{
-    image:"/Rectangle 12.png",
+    image:"/draw.png",
     name:"Mr.john smith",
     ceo:"CEO at X-design",
     design:"How to become a UX Designer",
@@ -16,8 +16,9 @@ const Webinar = () => {
     <div className={styles.webinarwrapper}>
       <div className={styles.heading}>Webinars</div>
       {info.map((value,index)=>{
-        return <Webinarcard key={'Webinarcard-${index}'}{...value} />
+        return <Webinarcard key={`Webinarcard-${index}`}{...value} />
       })}
+      
     </div>
   );
 };

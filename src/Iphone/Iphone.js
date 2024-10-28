@@ -24,6 +24,7 @@ const Iphone = () => {
       ];
   return (
     <div className={styles.container}>
+     
       <div className={styles.header}>
         <div className={styles.logo}>LOGO</div>
         <img src="/3lines.png" alt="image"className={styles.img}  />

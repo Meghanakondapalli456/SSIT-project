@@ -1,3 +1,8 @@
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
 .header{
     background-color: black;
     color: white;
@@ -22,13 +27,22 @@ hr{
 }
 .bulb{
     align-items:right;
+    max-width: 57px;
+    max-height: 57px;
 }
 .dec{
     font-size: xx-large;
     font-weight: bolder;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    word-break: break-word;
+    width: 350px;
+    
+   line-height: 54px;
+    text-align:center;
+    list-style-type: decimal;
+    
+   
 }
 .color{
     color: aqua;
@@ -43,10 +57,12 @@ hr{
     margin-right: auto;
     font-size: large;
     border-radius: 5px;
+    margin-top: 67px;
 }
 .num{
     background-color: black;
     color: white;
+
 }
 .dig{
     font-size: xx-large;
@@ -61,3 +77,18 @@ hr{
     background-color: black;
     display: flex;
 }
+.aboutUsCards{
+   
+    background-color: whitesmoke;
+}
+.AboutUsCard{
+    max-width: 248px;
+    max-height: 226px;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+

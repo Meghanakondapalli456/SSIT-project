@@ -1,9 +1,8 @@
 import React from "react";
-import styles from "./AboutUs.module.css";
+import styles from "./Iphone.module.css";
 
-const AboutUsCard = ({
-  imagePath ,title,aboutuscarddescription
-}) => {
+
+const AboutUsCard = ({imagePath ,title,aboutuscarddescription}) => {
   return (
     <div className={styles.AboutUsCard}>
       <img src={ imagePath} alt="VR array" className={styles.image} />

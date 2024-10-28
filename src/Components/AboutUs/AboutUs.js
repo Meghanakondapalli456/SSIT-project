@@ -7,22 +7,19 @@ export const AboutUs = () => {
     {
       imagePath: "/VR Array 1.png",
       title: "Cutting Edge Technology",
-      aboutuscarddescription:
-        "Take the advantage of our cutting-edge solutions to increase your Returnfrom investment on IT",
+      aboutuscarddescription:"Take the advantage of our cutting-edge solutions to increase your Returnfrom investment on IT",
     },
 
     {
-      imagePath: "/VR Array 1.png",
+      imagePath: "/lines.png",
       title: "Crose Device Compatability ",
-      aboutuscarddescription:
-        "Multi-device compatibility ensures that creating, viewing and providing quick and easy",
+      aboutuscarddescription:"Multi-device compatibility ensures that creating, viewing and providing quick and easy",
     },
 
     {
-      imagePath: "/VR Array 1.png",
+      imagePath: "/clock .png",
       title: "Tailer Mode Development ",
-      aboutuscarddescription:
-        "Scalable and dynamic systems with the ever-changing trends to meet your dynamic business needs",
+      aboutuscarddescription:"Scalable and dynamic systems with the ever-changing trends to meet your dynamic business needs",
     },
   ];
   return (
@@ -43,6 +40,7 @@ export const AboutUs = () => {
           return <AboutUsCard key={`AboutUsCard-${index}`} {...item} />;
         })}
       </div>
+     
     </div>
   );
 };

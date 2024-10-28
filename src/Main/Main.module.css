@@ -1,0 +1,30 @@
+.wrapper{
+    background-color:black;
+    color:white;
+}
+.card{
+    background-color:rgb(104, 103, 103) ;
+    max-width: 231px;
+    max-height:238px ;
+    border-radius: 22px;
+    align-items:justify;
+    margin-left: 99px;
+    padding: 24px 16px 30px 22px;
+    display: flex;
+}
+.author{
+    text-align:justify;
+   
+}
+.image{
+    margin-bottom: 12px;
+    min-height: 45px;
+    max-width: 45px;
+}
+.star{
+    max-width: 64px;
+    max-height: 16px;
+   row-gap: 8px;
+    
+
+}

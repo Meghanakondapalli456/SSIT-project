@@ -66,7 +66,7 @@ const Whatwe = () => {
       <div className={styles.heading}>What we do</div>
       <div className={styles.icons}>
         {arr.map((value, index) => {
-          return <Whatweicons key={"Whatweicons-${index}"} {...value} />;
+          return <Whatweicons key={`Whatweicons-${index}`} {...value} />;
         })}
       </div>
     </div>

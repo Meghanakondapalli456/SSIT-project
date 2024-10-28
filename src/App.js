@@ -1,16 +1,23 @@
 import "./App.css";
 import { AboutUs } from "./Components/AboutUs/AboutUs";
+import Keyword from "./Keyword/Keyword";
 import News from "./News/News";
 import Webinar from "./Webinars/Webinar";
 import Whatwe from "./What-we-do/Whatwe";
+import Main from "./Main/Main";
+import Iphone from "./Iphone/Iphone";
 
 function App() {
   return (
     <div className="App">
+     {/* <Main />
       <AboutUs />
       <Whatwe />
       <Webinar />
       <News />
+      <Keyword />*/}
+      <Iphone />
+     
     </div>
   );
 }
