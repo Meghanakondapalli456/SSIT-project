@@ -43,7 +43,17 @@ const Iphone = () => {
         <div className={styles.lorem}>Lorem Ipsum is simply.</div>
       </div>
       <img src="/bell.png" alt="bell" className={styles.bell} />
-
+      <div className={styles.heading}>
+        About <span className={styles.color}>Lorem</span>
+      </div>
+      <div className={styles.aboutusdescription}>
+        At AFQ Tech, we believe in a systematic approach for any project be it
+        complex or simple. We are a group of individuals with a various set of
+        skill set varies from Digital Marketing to IoT/Robotics solutions. We
+        have our dedicated team for your project which uses various methods such
+        as agile Scrum & agile Kanban. We ensure top-notch quality, on-time
+        delivery, and agility for your project.
+      </div>
       <div className={styles.aboutuscards}>
         {data.map((item, index) => {
           return <AboutUsCard key={`AboutUsCard-${index}`} {...item} />;

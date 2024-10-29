@@ -2,7 +2,9 @@
 .container{
     margin-left: auto;
     margin-right: auto;
+    
 }
+
 .header{
     background-color: black;
     color: white;
@@ -12,6 +14,7 @@
     font-size: xx-large;
     font-weight: bolder;
 }
+
 .img{
   margin-left: auto;
 }
@@ -58,37 +61,83 @@ hr{
     font-size: large;
     border-radius: 5px;
     margin-top: 67px;
+    margin-bottom: 56px;
 }
 .num{
     background-color: black;
     color: white;
-
+    display: grid;
+    row-gap: 20px;
+   
+   
 }
 .dig{
     font-size: xx-large;
     font-weight: bold;
+    size: 40px;
 }
 .lorem{
     color: gray;
     font-size: medium;
     font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
 }
 .bell{
     background-color: black;
     display: flex;
-}
-.aboutUsCards{
+    max-width: 46px;
+    max-height: 36px;
+    margin-left: 40px;
+    
    
-    background-color: whitesmoke;
 }
+
+.heading {
+    text-align: justify;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: whitesmoke;
+    width: 254px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .color {
+    color: aqua;
+  }
+  .aboutusdescription {
+    color: gray;
+    background-color: whitesmoke;
+    font-weight: lighter;
+    padding: 34px;
+    text-align: center;
+    margin: auto;
+   width: 358px;
+   justify-content: center;
+   text-align: justify;
+  }
+  .aboutuscards{
+   
+    background-color:whitesmoke;
+    display: grid;
+    row-gap: 61px;
+    width: 248px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
 .AboutUsCard{
-    max-width: 248px;
-    max-height: 226px;
+    width: 248px;
+    height: 226px;
     background-color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
    
 }
-
 
