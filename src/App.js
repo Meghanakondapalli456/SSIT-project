@@ -6,17 +6,19 @@ import Webinar from "./Webinars/Webinar";
 import Whatwe from "./What-we-do/Whatwe";
 import Main from "./Main/Main";
 import Iphone from "./Iphone/Iphone";
+import Whatulearn from "./Whatulearn/Whatulearn";
 
 function App() {
   return (
     <div className="App">
-     {/* <Main />
+     <Main />
       <AboutUs />
       <Whatwe />
       <Webinar />
       <News />
-      <Keyword />*/}
+      <Keyword />
       <Iphone />
+      <Whatulearn />
      
     </div>
   );
