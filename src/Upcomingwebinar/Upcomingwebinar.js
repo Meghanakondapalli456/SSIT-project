@@ -37,7 +37,9 @@ const Upcomingwebinar = () => {
         {points.map((item, index) =>{
             return <Upcoming  key={`upcoming-${index}`}{...item}/>
         })}
+       
     </div>
+    
   )
 }
 

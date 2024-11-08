@@ -1,66 +1,77 @@
-.Upcomingwebinar{
-    font-family: "popover";
+.Upcomingwebinar {
+  font-family: "popover";
 }
-.heading{
-    display: flex;
-    font-family: "poppins";
-    font-size: x-large;
-    font-weight: lighter;
-    margin-top: 106px;
-    margin-left: 125px;
+.heading {
+  display: flex;
+  font-family: "poppins";
+  font-size: x-large;
+  font-weight: lighter;
+  margin-top: 106px;
+  margin-left: 125px;
 }
-.card{
-    display: flex;
-    text-align: justify;
-    gap: 23px;
-    max-width: 1191px;
-    max-height: 430px;
-    border-radius: 40px;
-    background-color: white;
-    padding: 28px 83px 29px 41px;
-    margin-top: 83px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -2px -2px 10px rgba(255, 255, 255, 0.5);
-
+.card {
+  display: flex;
+  text-align: justify;
+  gap: 23px;
+  max-width: 1191px;
+  max-height: 430px;
+  border-radius: 40px;
+  background-color: white;
+  padding: 28px 83px 29px 41px;
+  margin-top: 83px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3),
+    -2px -2px 10px rgba(255, 255, 255, 0.5);
 }
-.image{
-    max-width: 421px;
-    max-height: 373px;
-    border-radius: 20px;
-    
+.image {
+  max-width: 421px;
+  max-height: 373px;
+  border-radius: 20px;
 }
-.name{
-    font-family: "poppins";
-    font-weight:lighter;
-    font-size: xx-large;
+.name {
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: xx-large;
 }
-.ceo{
-    color: gray;
-    font-family: "poppins";
-    font-size: large;
-    font-weight: lighter;
+.ceo {
+  color: gray;
+  font-family: "poppins";
+  font-size: large;
+  font-weight: lighter;
 }
-.guide{
-    font-size: xx-large;
-    font-weight:light;
-    font-family: "poppins";
-    margin-bottom: 5px;
-    
+.guide {
+  font-size: xx-large;
+  font-weight: light;
+  font-family: "poppins";
+  margin-bottom: 5px;
 }
-.info{
-    color: gray;
-    font-size: large;
-    margin-bottom: 130px;
-    
-    
+.info {
+  color: gray;
+  font-size: large;
+  margin-bottom: 100px;
 }
-.dte{
-    font-family: "poppins";
-    font-weight:lighter;
-    font-size: x-large; 
-
+.dte {
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: x-large;
 }
-.tim{
-
+.tim {
+  font-weight: lighter;
+  font-family: "poppins";
+  font-size: large;
+}
+.reg {
+  background-color: #2196f3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: small;
+  font-weight: lighter;
+  max-width: 188px;
+  max-height: 56px;
+  padding: 4px 20px;
+}
+.data {
+  display: flex;
 }

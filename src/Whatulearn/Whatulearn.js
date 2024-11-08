@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Whatulearn.module.css'
 import Whatulearncard from './Whatulearncard';
 import Upcomingwebinar from '../Upcomingwebinar/Upcomingwebinar';
+import Collabration from '../Collabration/Collabration';
 
 const Whatulearn = () => {
   const data=[{
@@ -33,6 +34,8 @@ const Whatulearn = () => {
       </div>
       <button className={styles.button} >Yes! Save My Spot</button>
       <Upcomingwebinar />
+      <div className={styles.more}>View More</div>
+      <Collabration />
     </div>
   )
 }

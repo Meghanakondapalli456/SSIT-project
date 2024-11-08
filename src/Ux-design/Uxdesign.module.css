@@ -1,0 +1,85 @@
+.bgimage{
+    max-width: 1440px;
+    max-height: 817px;
+}
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  max-height: 87.5px;
+  max-width: 87.5px;
+  margin-top: -170px;
+}
+.free {
+  position: absolute;
+margin-top: 15px;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-50%, -50%);
+  margin-top: 19px;
+  left: 50%;
+  font-family: "poppins";
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+}
+.mr {
+  color: white;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "poppins";
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 70px;
+  white-space: nowrap;
+}
+.ist {
+  color: white;
+  white-space: nowrap;
+  font-family: "poppins";
+  font-size: large;
+  margin-left: auto;
+  text-align: center;
+  display: block;
+  margin-left: -160px;
+}
+.click{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 16px;
+    white-space: nowrap;
+    margin-top: 50px;
+    max-width: 309px;
+    max-height: 81px;
+    font-size: large;
+    font-weight: bold;
+    font-family: "poppins";
+    margin-left: -30px;
+    color: #6E00FA;
+
+}
+.period{
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    margin-left: -100px;
+    margin-top: 56px;
+    
+}
+.zero{
+    font-size: xx-large;
+    color: white;
+
+}
+.periodLabel{
+    color: white;
+    font-family: "poppins";
+    font-weight:bold;
+    font-size: medium;
+}

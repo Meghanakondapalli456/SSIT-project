@@ -1,0 +1,29 @@
+.images{
+    max-width: 180px;
+   
+    object-fit: cover;
+    margin: 10px;
+    
+}
+.para{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 628px;
+    max-height: 170px;
+    font-family: "poppins";
+    color: rgb(110, 105, 105);
+}
+.dark{
+  color: black;
+  font-family: "poppins";
+font-weight:light;
+
+
+}
+.more{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}

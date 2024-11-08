@@ -7,17 +7,19 @@ import Whatwe from "./What-we-do/Whatwe";
 import Main from "./Main/Main";
 import Iphone from "./Iphone/Iphone";
 import Whatulearn from "./Whatulearn/Whatulearn";
+import Uxdesign from "./Ux-design/Uxdesign";
 
 function App() {
   return (
     <div className="App">
-     <Main />
+    { /*<Main />
       <AboutUs />
       <Whatwe />
       <Webinar />
       <News />
       <Keyword />
-      <Iphone />
+      <Iphone /> */}
+      <Uxdesign />
       <Whatulearn />
      
     </div>

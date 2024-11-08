@@ -2,25 +2,21 @@ import React from "react";
 import styles from "./Keyword.module.css";
 
 const Keyword = () => {
+  const lorem=[
+    {name: "Lorem"}
+  ]
+  const reusedlorem =Array(8).fill(lorem[0])
   return (
     <div className={styles.wrapper}>
       <div className={styles.starting}>
         <div className={styles.header}>Key words</div>
         <div className={styles.grid}>
-          {[
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-          ].map((word, index) => (
-            <button key={index} className={styles.btn}>
-              {word}
-            </button>
-          ))}
+          {
+          reusedlorem .map((item, index) => {
+            return
+          }
+          
+          )}
         </div>
         <div className={styles.verticalline}></div>
       </div>

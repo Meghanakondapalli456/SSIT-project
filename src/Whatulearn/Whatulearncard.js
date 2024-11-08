@@ -10,6 +10,7 @@ const Whatulearncard = ({img,title,description,color}) => {
         <div className={styles.order}>
         <div className={styles.title}>{title}</div>
         <div className={styles.description}>{description}</div>
+        
         </div>
         
     </div>
