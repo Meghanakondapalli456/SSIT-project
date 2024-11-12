@@ -4,7 +4,16 @@ import Whatulearncard from "./Whatulearncard";
 import Upcomingwebinar from "../Upcomingwebinar/Upcomingwebinar";
 import Collabration from "../Collabration/Collabration";
 import Workshop from "../Workshop/Workshop";
+import Uxdesign from "../Ux-design/Uxdesign";
+
 const Whatulearn = () => {
+  const logos=[
+    {name:"google",img:"/google.png"},
+    {name:"microsoft",img:"/microsoft.png"},
+    {name:"apple",img:"/apple.png"},
+    {name:"netflix",img:"/netflix.png"},
+    {name:"tesla",img:"/tesla.png"},
+  ];
   const data = [
     {
       img: "/Done.png",
@@ -15,26 +24,18 @@ const Whatulearn = () => {
     },
   ];
   const repeatdata = Array(8).fill(data[0]);
-  const newContent = [
-    {
-    head: "Build something new in our Workshop",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id volutpat tristique vitae nibh. Etiam suscipit sed ultricies tortor a,  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id volutpat tristique vitae nibh. Etiam suscipit sed ultricies tortor a, .... ",
-  },
-];
+  
 
   return (
+   
     <div className={styles.whatulearn}>
+       <Uxdesign />
       <div className={styles.icons}>
-        <img src="/google.png" alt="google" />
-        <img src="/microsoft.png" alt="microsoft" />
-        <img src="/apple.png" alt="apple" />
-        <img src="/ibm.png" alt="ibm" />
-        <img src="/netflix.png" alt="netflix" />
-        <img src="/tesla.png" alt="tesla" />
+        {logos.map((logo,index)=>{
+         return  <img  key={index} src={logo.img} alt={logo.name}/>
+        })}
       </div>
-      <Workshop 
-      content={newContent} />
+     
       <div className={styles.header}>What you will learn this Webinar? </div>
       <div className={styles.des}>
         At AFQ Tech, we believe in a systematic approach for any project be it
@@ -52,6 +53,7 @@ const Whatulearn = () => {
       <Upcomingwebinar />
       <div className={styles.more}>View More</div>
       <Collabration />
+      <Workshop logos={logos}  repeatdata={repeatdata} />
     </div>
   );
 };
