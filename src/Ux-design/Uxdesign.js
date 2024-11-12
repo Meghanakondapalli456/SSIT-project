@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Uxdesign.module.css";
+import Workshop from "../Workshop/Workshop";
 
 const Uxdesign = () => {
   const time = [
@@ -28,6 +29,7 @@ const Uxdesign = () => {
           ))}
         </div>
       </div>
+   
     </div>
   );
 };

@@ -1,17 +1,64 @@
-.head {
-    text-align: center;
-    font-size: larger;
-    font-weight: bold;
-    font-family: "poppins";
-    margin-top: 60px;
-  }
-  .description{
-    font-weight: lighter;
-    font-size: small;
-    font-family: "poppins";
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-left: 220px;
-    padding-right: 220px;
-  }
+.companylogos{
+  padding-left: 248px;
+  padding-right: 248px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  column-gap: 77px;
+}
+.data{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.maters head{
+  text-align: justify;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "poppins";
+  margin-top: 60px;
+
+}
+.maters .description{
+  font-weight: lighter;
+  font-size: small;
+  font-family: "poppins";
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+.backimage{
+  max-width: 1440px;
+    max-height: 817px;
+}
+.video{
+  position: absolute;
+ 
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  max-height: 87.5px;
+  max-width: 87.5px;
+  margin-top: -370px;
+  color: white;
+}
+.gameing{
+text-align: justify;
+ margin-top:-180px;
+ margin-bottom: 180px;
+  margin-left: 30px;
+}
+.game{
+  color: white;
+  font-size: large;
+  font-family: "poppins";
+  font-weight: bold;
+  max-width: 857px;
+}
+.name{
+  color: rgb(55, 52, 52);
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: large;
+}

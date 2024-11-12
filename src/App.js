@@ -27,11 +27,10 @@ function App() {
       <Webinar />
       <News />
       <Keyword />
-      <Iphone />
-      <Uxdesign />*/}
+      <Iphone />*/}
       <Whatulearn /> 
       <Workshop 
-       content={newContent} />
+       content={newContent}  />
     </div>
   );
 }
