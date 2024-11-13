@@ -10,15 +10,15 @@
   display: grid;
   grid-template-columns: auto auto;
 }
-.maters head{
-  text-align: justify;
+.head{
+  text-align:left ;
   font-size: larger;
   font-weight: bold;
   font-family: "poppins";
   margin-top: 60px;
 
 }
-.maters .description{
+.description{
   font-weight: lighter;
   font-size: small;
   font-family: "poppins";
@@ -29,12 +29,13 @@
   padding-right: 220px;
 }
 .backimage{
+
   max-width: 1440px;
     max-height: 817px;
 }
 .video{
   position: absolute;
- 
+  
   left: 50%;
   align-items: center;
   transform: translate(-50%, -50%);
@@ -61,4 +62,61 @@ text-align: justify;
   font-family: "poppins";
   font-weight: lighter;
   font-size: large;
+  
+}
+.instructor{
+  display: flex;
+  margin-top: 20px;
+}
+.instructors{
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: x-large;
+
+}
+.inst{
+  margin-top: 52px;
+  position: relative;
+  display:grid;
+  max-width: 141px;
+  max-height: 141px;
+  grid-template-columns: auto auto;
+  gap:56px
+ 
+
+}
+.color{
+  color: aqua;
+}
+.namespace{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 190px;
+  margin-left: -150px;
+  gap: 90px;
+font-family: "poppins";
+font-size: medium;
+font-weight: lighter;
+ 
+
+}
+.enrolled{
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: x-large;
+}
+.enroll{
+  display: flex;
+  margin-top: 20px;
+}
+.overlay-images{
+  margin-top: 52px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: -70px;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+
 }

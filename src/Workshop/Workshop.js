@@ -6,8 +6,18 @@ const Workshop = ({
   content = [],
   logos = [],
   repeatdata = [],
-  Uxdesign = [],
+  
 }) => {
+  const imgdata =[
+    {photo:"/image1.png",image:"image1"},
+    {photo:"/image2.png",image:"image2"}
+  ]
+  const enrolldata=[
+    {imgpath:"/image3.png",imgp:"image3"},
+    {imgpath:"/image4.png",imgp:"image4"},
+    {imgpath:"/image5.png",imgp:"image5"},
+    {imgpath:"/image6.png",imgp:"image6"},
+  ]
   return (
     <div className={styles.workshop}>
       <img src="/image.png" alt="bg-image" className={styles.backimage} />
@@ -36,6 +46,26 @@ const Workshop = ({
           <Whatulearncard key={`whatulearn-${index} `} {...item} />
         ))}
       </div>
+      <div className={styles.instructor}>
+        <div className={styles.instructors}>Instructors</div>
+        <div className={styles.inst}>
+      {imgdata.map((img, index) => (
+        <img key={index} src={img.photo} alt={img.image} />))}
+        
+        </div>
+        <div className={styles.namespace}>
+          <ul>Mave<span className={styles.color}>n</span> ric<span className={styles.color}>h</span></ul>
+          <ul>Eric<span className={styles.color}>a</span> blis<span className={styles.color}>s</span></ul>
+        </div>
+        </div>
+        <div className={styles.enroll}>
+          <div className={styles.enrolled}>Enrolled</div>
+          <div className={styles.images}>
+        {enrolldata.map((item,index)=>(
+          <img key={index} src={item.imgpath} alt={item.imgp}/>
+        ))}
+        </div>
+        </div>
     </div>
   );
 };
