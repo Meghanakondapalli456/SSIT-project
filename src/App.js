@@ -11,13 +11,7 @@ import Uxdesign from "./Ux-design/Uxdesign";
 import Workshop from "./Workshop/Workshop";
 
 function App() {
-  const newContent = [
-    {
-    head: "Build something new in our Workshop",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id volutpat tristique vitae nibh. Etiam suscipit sed ultricies tortor a,  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id volutpat tristique vitae nibh. Etiam suscipit sed ultricies tortor a, .... ",
-  },
-];
+  
 
   return (
     <div className="App">
@@ -29,8 +23,7 @@ function App() {
       <Keyword />
       <Iphone />*/}
       <Whatulearn /> 
-      <Workshop 
-       content={newContent}  />
+      
     </div>
   );
 }

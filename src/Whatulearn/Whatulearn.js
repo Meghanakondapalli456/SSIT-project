@@ -10,6 +10,7 @@ const Whatulearn = () => {
   const logos=[
     {name:"google",img:"/google.png"},
     {name:"microsoft",img:"/microsoft.png"},
+    {name:"ibm",img:"/ibm.png"},
     {name:"apple",img:"/apple.png"},
     {name:"netflix",img:"/netflix.png"},
     {name:"tesla",img:"/tesla.png"},
