@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Workshop.module.css";
 import Whatulearncard from "../Whatulearn/Whatulearncard";
 
-
 const Workshop = ({ logos = [], repeatdata = [] }) => {
   const newContent = [
     {
@@ -30,6 +29,26 @@ const Workshop = ({ logos = [], repeatdata = [] }) => {
     { path: "/path6.png", p: "path6" },
     { path: "/path7.png", p: "path7" },
     { path: "/path8.png", p: "path8" },
+  ];
+  const more = [
+    { images: "/images1.png", images1: "images1" },
+    { images: "/images2.png", images1: "images2" },
+  ];
+  const para = [
+    {
+      paragraph:
+        "Not Humans its all about technology that what leads in the future..",
+      pg: "by Edvard Brown",
+      play:"/play-fill.png",pl:"play",
+      arrow:"/right-circle-fill.png",arr:"arrow",
+    },
+    {
+      paragraph:
+        "Gaming is the world of imagination where all the developers design their own world",
+      pg: "by Edvard Brown",
+      play:"/play-fill.png",pl:"play",
+      arrow:"/right-circle-fill.png",arr:"arrow",
+    },
   ];
   return (
     <div className={styles.workshop}>
@@ -96,6 +115,28 @@ const Workshop = ({ logos = [], repeatdata = [] }) => {
             <img key={index} src={item.path} alt={item.p} />
           ))}
         </div>
+        <p>
+          At AFQ Tech, we believe in a systematic approach for any project be it
+          complex or simple. We are a group of individuals with a various set of
+          skill set varies from Digital Marketing to IoT/Robotics solutions. We
+          have our dedicated team for your project which uses various methods
+          such as agile Scrum & agile Kanban. We e
+        </p>
+        <h5>Martha , United States</h5>
+      </div>
+      <div className={styles.moreworks}>
+        <div className={styles.work}>More Workshops</div>
+
+        <div className={styles.works}>
+          {more.map((pic, index) => (
+            <img key={index} src={pic.images} alt={pic.images1} />
+          ))}
+        </div>
+      </div>
+      <div>
+        {para.map((p,index)=>(
+          <img key={index} src={p.play} alt={p.pl} />
+        ))}
       </div>
     </div>
   );

@@ -68,7 +68,7 @@ h3 {
 .instructor {
   display: grid;
   margin-top: 20px;
-  
+
   align-items: justify;
   justify-content: left;
 }
@@ -76,14 +76,12 @@ h3 {
   font-family: "poppins";
   font-weight: bold;
   font-size: x-large;
- 
 }
-.inst{
+.inst {
   margin-left: 100px;
   position: relative;
- gap:59px ;
+  gap: 59px;
   margin-top: 52px;
-
 }
 
 .color {
@@ -91,7 +89,7 @@ h3 {
 }
 .namespace {
   display: flex;
-   margin-left: 70px;
+  margin-left: 70px;
   gap: 90px;
   font-family: "poppins";
   font-size: medium;
@@ -111,41 +109,112 @@ h3 {
   align-items: justify;
   justify-content: left;
   margin-left: 100px;
-  
-
 }
-.images{
-  
+.images {
   border: white;
- border-radius: 50%;
-object-fit: cover;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.btn{
+.btn {
   max-width: 325px;
   max-height: 80px;
   border-radius: 15px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: white;
   font-family: "poppins";
   border: none;
   font-size: xx-large;
-  font-weight:lighter;
+  font-weight: lighter;
   padding: 4px 50px;
   margin-top: 84px;
 }
-.grid{
-  display:grid;
-  grid-template-columns:auto auto auto;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
   grid-template-areas: ".path1 path2 path3." ".path4 path5 path6." ".path7 path8.";
   align-items: center;
   grid-area: center;
   object-fit: cover;
   margin-left: 60px;
 }
-.quote{
-  display: flex;
+.quote {
+  display: center;
   justify-content: center;
- align-items: center;
+  align-items: center;
   background-size: cover;
+}
+p {
+  max-width: 500px;
+  text-align: center;
+  font-family: "poppins";
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -370px;
+  font-weight: lighter;
+  color: black;
+}
+h5 {
+  font-family: "poppins";
+  text-align: center;
+}
+img[src="/path1.png"] {
+  display: block;
+  margin-left: 0;
+}
+img[src="/path2.png"] {
+  display: block;
+  margin-left: 0;
+  margin-right: 300px;
+}
+img[src="/path3.png"] {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+img[src="/path4.png"] {
+  display: block;
+  margin-left: 200px;
+  margin-right:0 ;
+}
+img[src="/path5.png"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid;
+  border-color: #0073C6;
+  border-radius: 50%;
+  padding: 20px 20px 20px 20px;
+}
+img[src="/path6.png"] {
+  display: block;
+  margin-left: -200px;
+  margin-top: -70px;
+}
+img[src="/path7.png"] {
+  display: block;
+  margin-left:0;
+}
 
+img[src="/path8.png"] {
+  display: block;
+  margin-left: auto;
+  margin-right: -250px;
+  margin-top: -250px;
+}
+.moreworks{
+  margin-left: 107px;
+}
+.work{
+  font-family: "poppins";
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  margin-top: 229px;
+}
+.works{
+  max-width: 633px;
+  max-height: 489px;
+  display: flex;
+  margin-top: 57px;
+  gap: 44px;
 }
