@@ -21,7 +21,7 @@ function App() {
       <Webinar />
       <News />
       <Keyword />
-      <Iphone />*/}
+      {/* <Iphone />*/}
       <Whatulearn /> 
       
     </div>

@@ -2,8 +2,10 @@
     background-color: black;
     color: white;
     max-width: 1442px;
-    max-height:auto;
+    width: 100%;
+    height:auto;
     display: flex;
+    flex-wrap: wrap;
     padding: 75px 104px 74px 107px;
     
 }
@@ -11,31 +13,53 @@
     color: white;
     font-size: medium;
     font-weight: bold;
+    margin-bottom: 16px;
    
 }
-.grid{
+.lorems{
    display: grid;
-  padding: 11px;
+  padding: 10px;
     gap: 8px;
-    max-width:94px ;
-    max-height: 27px;
+ color: white;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto auto;
     
+    margin-right:40px ;
+   
 
+}
+.lorems div {
+  background-color: #333; 
+  text-align: center; 
+  padding: 8px; 
+  border-radius: 4px; 
+  
+ 
+  
+}
+.lorem{
+  margin-bottom: 300px;
 }
 .searchbar{
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .src{
     font-size: medium;
     
 }
-.verticalLine {
+.verticalline {
     width: 1px;                
-    height: 100px;             
+    height: 100%;             
     background-color: white;   
-    margin: 0 20px;           
+    margin: 0 20px;  
+    display: grid;
+    margin-top: -100px;
+    margin-left: auto;
+    gap: 58px;
+    
+            
   }
   .srchbtn{
     background-color: white;
@@ -47,5 +71,25 @@
     background-color: blueviolet;
     max-width: 17px;
     min-height: 17px;
+  }
+  .verticalline1 {
+    width: 1px;                
+    height: 100%;             
+    background-color: white;   
+    margin: 0 20px;  
+    display: grid;
+    margin-top: -100px;
+    margin-left: auto;
+    gap: 58px;
+  }
+  .verticalline2 {
+    width: 1px;                
+    height: 100%;             
+    background-color: white;   
+    margin: 0 20px;  
+    display: grid;
+    margin-top: -100px;
+    margin-left: auto;
+    gap: 58px;
   }
   

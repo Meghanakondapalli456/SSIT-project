@@ -218,3 +218,43 @@ img[src="/path8.png"] {
   margin-top: 57px;
   gap: 44px;
 }
+.box{
+  display: flex;
+  color: white;
+  font-family: "poppins";
+  font-size: large;
+  font-weight: bold;
+}
+.box{
+  display: flex;
+
+}
+.par{
+  margin-left: 200px;
+  color: white;
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: large;
+  max-width: 400px;
+  text-align: justify;
+  margin-right: 70px;
+ 
+}
+.pa{
+  margin-top: 30px;
+  text-align: justify;
+  margin-right: -30px;
+  color: white;
+  font-family: "poppins";
+  font-size: large;
+  font-weight: lighter;
+}
+.pictures{
+  display: flex;
+  margin-left: 180px;
+  gap: 370px;
+  margin-top: 180px;
+  max-width: fit-content;
+  max-height: fit-content;
+  
+}

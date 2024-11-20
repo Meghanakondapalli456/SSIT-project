@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Workshop.module.css";
 import Whatulearncard from "../Whatulearn/Whatulearncard";
+import Keyword from "../Keyword/Keyword";
 
 const Workshop = ({ logos = [], repeatdata = [] }) => {
   const newContent = [
@@ -39,15 +40,19 @@ const Workshop = ({ logos = [], repeatdata = [] }) => {
       paragraph:
         "Not Humans its all about technology that what leads in the future..",
       pg: "by Edvard Brown",
-      play:"/play-fill.png",pl:"play",
-      arrow:"/right-circle-fill.png",arr:"arrow",
+      play: "/play-fill.png",
+      pl: "play",
+      arrow: "/right-circle-fill.png",
+      arr: "arrow",
     },
     {
       paragraph:
         "Gaming is the world of imagination where all the developers design their own world",
       pg: "by Edvard Brown",
-      play:"/play-fill.png",pl:"play",
-      arrow:"/right-circle-fill.png",arr:"arrow",
+      play: "/play-fill.png",
+      pl: "play",
+      arrow: "/right-circle-fill.png",
+      arr: "arrow",
     },
   ];
   return (
@@ -133,11 +138,20 @@ const Workshop = ({ logos = [], repeatdata = [] }) => {
           ))}
         </div>
       </div>
-      <div>
-        {para.map((p,index)=>(
-          <img key={index} src={p.play} alt={p.pl} />
+      <div className={styles.box}>
+        {para.map((p, index) => (
+          <div key={index}>
+            <p className={styles.par}>{p.paragraph}</p>
+            <p className={styles.pa}>{p.pg}</p>
+
+            <div className={styles.pictures}>
+              <img src={p.play} alt={p.pl} />
+              <img src={p.arrow} alt={p.arr} />
+            </div>
+          </div>
         ))}
       </div>
+      <Keyword />
     </div>
   );
 };
