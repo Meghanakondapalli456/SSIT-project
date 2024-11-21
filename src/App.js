@@ -9,6 +9,7 @@ import Iphone from "./Iphone/Iphone";
 import Whatulearn from "./Whatulearn/Whatulearn";
 import Uxdesign from "./Ux-design/Uxdesign";
 import Workshop from "./Workshop/Workshop";
+import Service from "./Service/Service";
 
 function App() {
   
@@ -21,8 +22,9 @@ function App() {
       <Webinar />
       <News />
       <Keyword />
-      {/* <Iphone />*/}
-      <Whatulearn /> 
+       <Iphone />
+      <Whatulearn /> */}
+      <Service />
       
     </div>
   );

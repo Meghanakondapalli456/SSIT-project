@@ -2,7 +2,7 @@
     background-color: black;
     color: white;
     max-width: 1442px;
-    width: 100%;
+   
     height:auto;
     display: flex;
     flex-wrap: wrap;
@@ -12,8 +12,9 @@
 .header{
     color: white;
     font-size: medium;
-    font-weight: bold;
+    font-weight: lighter;
     margin-bottom: 16px;
+    font-family: "poppins";
    
 }
 .lorems{
@@ -61,16 +62,56 @@
     
             
   }
+  .verticalline1 {
+    width: 1px;                
+    height: 100%;             
+    background-color: white;   
+    margin: 0 20px;  
+    display: grid;
+    margin-top: -100px;
+    margin-left: auto;
+    gap: 58px;
+    
+            
+  }
+  .verticalline2 {
+    width: 1px;                
+    height: 100%;             
+    background-color: white;   
+    margin: 0 20px;  
+    display: grid;
+    margin-top: -100px;
+    margin-left: auto;
+    gap: 58px;
+    
+            
+  }
+  .searchbar{
+    text-align: justify;
+   margin-left: 40px;
+
+  }
   .srchbtn{
     background-color: white;
-    max-width: 287px;
+   width: 200px;
     max-height: 38px;
     border:none;
+    gap: 58px;
+   
   }
   .searching{
     background-color: blueviolet;
-    max-width: 17px;
-    min-height: 17px;
+   width: 17px;
+   height: 17px;
+    align-items: right;
+
+  }
+  .search{
+    font-family: "poppins";
+    font-weight:lighter;
+    font-size: medium;
+    margin-bottom: 16px;
+ 
   }
   .verticalline1 {
     width: 1px;                

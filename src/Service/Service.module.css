@@ -1,0 +1,82 @@
+
+.heading{
+    font-family: "poppins";
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 58px;
+}
+.color{
+    color: aqua;
+}
+.servicecard{
+    display: grid;
+    row-gap: 132px;
+    grid-template-columns: auto ;
+    
+}
+img[src="/service img1.png"] {
+    display: block;
+    margin-left: 111px;
+    
+   
+  }
+  img[src="/service img2.png"] {
+    display: block;
+  
+   margin-left: 111px;
+   
+  }
+  img[src="/service img3.png"] {
+    display: block;
+    margin-left: 111px;
+   
+  }
+  img[src="/service img4.png"] {
+    display: block;
+    margin-left: 111px;
+   
+  }
+  img[src="/service img5.png"] {
+    display: block;
+    margin-left: 111px;
+   
+  }
+  img[src="/service img6.png"] {
+    display: block;
+    margin-left: 111px;
+   
+  }
+  img[src="/service img7.png"] {
+    display: block;
+    margin-left: 111px;
+   
+  }
+  img[src="/service img8.png"] {
+    display: block;
+    margin-left: 111px;
+   
+  }
+  .title{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 700px;
+  }
+  .describe{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 300px;
+    text-align: justify;
+    margin-right: 130px;
+   
+    
+  }
+  .images{
+    max-width: 587px;
+    max-height: 403px;
+    border-radius: 20px;
+ 
+  }
+
+  

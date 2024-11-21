@@ -5,12 +5,12 @@ const Keyword = () => {
   const lorem=[
     {name: "Lorem"},
   ];
-  const reusedlorem =Array(8).fill(lorem[0]);
+  const reusedlorem =Array(8).fill({ name: "Lorem" });
   return (
     <div className={styles.wrapper}>
-      <div className={styles.starting}>
+      <div className={styles.keywordsSection}>
         <div className={styles.header}>Key words</div>
-        <div className={styles.lorems}>
+        <div className={styles.keywordList}>
           {reusedlorem .map((item, index) => {
              return (<div key={index}> 
             <p>{item.name}</p>
@@ -53,4 +53,4 @@ const Keyword = () => {
   );
 };
 
-export default Keyword;
+export default Keyword
