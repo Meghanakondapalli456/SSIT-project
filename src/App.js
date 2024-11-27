@@ -10,6 +10,7 @@ import Whatulearn from "./Whatulearn/Whatulearn";
 import Uxdesign from "./Ux-design/Uxdesign";
 import Workshop from "./Workshop/Workshop";
 import Service from "./Service/Service";
+import Budget from "./Budget-tracker/Budget";
 
 function App() {
   
@@ -23,8 +24,9 @@ function App() {
       <News />
       <Keyword />
        <Iphone />
-      <Whatulearn /> */}
-      <Service />
+      <Whatulearn /> 
+      <Service />*/}
+      <Budget />
       
     </div>
   );
