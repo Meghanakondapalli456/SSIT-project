@@ -1,67 +1,80 @@
 
-import React, { useState } from "react";
+import styles from './Budget.module.css'
+import React, { useState } from 'react';
+const Budget = () => {
+  const [income, setIncome]=useState([]);
+  const [expenses, setExpenses]=useState([]);
+  const [balance, setBalance]=useState(0);
+  const [entry ,setEntry]=useState([]);
+    
+  const remainingbalance=() =>{
+  const totalincome=income.reduce((sum,entry)=>sum+entry.amount,0);
+  const totalexpenses=expenses.reduce((sum,entry)=>sum+entry.amount,0);
+  setBalance(totalincome-totalexpenses);
+  };
+  const handelAddEntry=() =>{
+    if(!entry.title||!entry.amount)
+      return
+    const newEntry ={
+      title:entry.title,
+      amount:entry.amount,
+      date:new Date(),
+  }
+  if(entry.type === "income")
+  {
+    setIncome ([...income,newEntry]);
+    setExpenses ([...expenses,newEntry]);
+
+  }
+  setEntry({title:"",amount:"",type:""});
+remainingbalance();
 
 
-function Budget() {
-  const [transactions, setTransactions] = useState([]);
-  const [inputData, setInputData] = useState({ description: "", amount: "" });
-
-  const addTransaction = (type) => {
-    if (!inputData.description || !inputData.amount) {
-      alert("Please fill in all fields!");
-      return;
+  const handelDeleteEntry=(type,index)=>{
+    if(type==="income") {
+     const updatedIncome =[
+      ...income.slice(0,index),
+      ...income.slice(index+1)
+     ]
+    setIncome(updatedIncome)}
+     else { 
+      const updatedExpenses=[
+        ...expenses.slice(0,index),
+      ...expenses.slice(index+1)
+      ];
+      setExpenses(updatedExpenses)
+     }
+     remainingbalance();
     }
-
-    const newTransaction = {
-      id: Date.now(),
-      description: inputData.description,
-      amount: type === "income" ? +inputData.amount : -inputData.amount,
-    };
-
-    setTransactions([...transactions, newTransaction]);
-    setInputData({ description: "", amount: "" });
-  };
-
-  const calculateBalance = () => {
-    return transactions.reduce((acc, transaction) => acc + transaction.amount, 0);
-  };
-
+  
   return (
-    <div className="app">
-      <h1>Budget Tracker</h1>
-      <div className="balance">
-        <h2>Balance: ₹{calculateBalance()}</h2>
-      </div>
-
-      <div className="transaction-form">
-        <input
-          type="text"
-          placeholder="Description"
-          value={inputData.description}
-          onChange={(e) => setInputData({ ...inputData, description: e.target.value })}
-        />
-        <input
-          type="number"
-          placeholder="Amount"
-          value={inputData.amount}
-          onChange={(e) => setInputData({ ...inputData, amount: e.target.value })}
-        />
-        <button onClick={() => addTransaction("income")}>Add Income</button>
-        <button onClick={() => addTransaction("expense")}>Add Expense</button>
-      </div>
-
-      <div className="transactions">
-        <h3>Transaction History</h3>
-        <ul>
-          {transactions.map((transaction) => (
-            <li key={transaction.id} className={transaction.amount > 0 ? "income" : "expense"}>
-              {transaction.description} - ₹{Math.abs(transaction.amount)}
-            </li>
+    <div>
+      <h1>Personal Budget Tracker</h1>
+      <h3>Balance:${balance}</h3>
+      <div className={styles.financial}>
+        <div>
+          <h3>Income</h3>
+          {income.map((item,index)=>(
+            <div key={index}>
+              <p>{item.title}:${item.amount}</p>
+              <button onClick={() => handelDeleteEntry("income", index)}>delete</button>
+            </div>
+          )
+          )}
+        </div>
+        <div>
+          <h3>Expenses</h3>
+          {expenses.map((item,index)=>(
+            <div key={index}>
+              <p>{item.title}:${item.amount}</p>
+              <button onClick={() => handelDeleteEntry("expenses", index)}>delete</button>
+            </div>
           ))}
-        </ul>
+        </div>
+
       </div>
     </div>
-  );
+  )
 }
-
+}
 export default Budget;
