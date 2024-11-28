@@ -5,7 +5,7 @@ const Budget = () => {
   const [income, setIncome]=useState([]);
   const [expenses, setExpenses]=useState([]);
   const [balance, setBalance]=useState(0);
-  const [entry ,setEntry]=useState([]);
+  const [entry ,setEntry]=useState({title:"",amount:"",type:""});
     
   const remainingbalance=() =>{
   const totalincome=income.reduce((sum,entry)=>sum+entry.amount,0);
@@ -75,6 +75,6 @@ remainingbalance();
       </div>
     </div>
   )
-}
+  }
 }
 export default Budget;
