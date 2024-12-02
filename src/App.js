@@ -1,4 +1,5 @@
 import "./App.css";
+import { Link } from 'react-router-dom';
 import { AboutUs } from "./Components/AboutUs/AboutUs";
 import Keyword from "./Keyword/Keyword";
 import News from "./News/News";
@@ -14,9 +15,14 @@ import Budget from "./Budget-tracker/Budget";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+  console.log("budget component rendered");
   return (
     <Router>
       <div className="App">
+      <nav>
+          <Link to="/budget-tracker"/>
+          
+        </nav>
         <Routes>
           {/*<Main />
       <AboutUs />
@@ -28,6 +34,7 @@ function App() {
       <Whatulearn /> 
       <Service />*/}
           <Route path="/budget-tracker" element={<Budget />} />
+          
         </Routes>
       </div>
     </Router>
