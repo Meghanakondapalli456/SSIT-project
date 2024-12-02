@@ -11,14 +11,14 @@ import Uxdesign from "./Ux-design/Uxdesign";
 import Workshop from "./Workshop/Workshop";
 import Service from "./Service/Service";
 import Budget from "./Budget-tracker/Budget";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  
-
   return (
-    <div className="App">
-      {/*<Main />
+    <Router>
+      <div className="App">
+        <Routes>
+          {/*<Main />
       <AboutUs />
       <Whatwe />
       <Webinar />
@@ -27,10 +27,10 @@ function App() {
        <Iphone />
       <Whatulearn /> 
       <Service />*/}
-      <Budget />
-    
-      
-    </div>
+          <Route path="/budget-tracker" element={<Budget />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

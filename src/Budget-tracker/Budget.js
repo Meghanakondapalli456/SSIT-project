@@ -1,20 +1,26 @@
 import styles from "./Budget.module.css";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
+
 const Budget = () => {
   const [income, setIncome] = useState([]);
   const [expenses, setExpenses] = useState([]);
   const [balance, setBalance] = useState(0);
   const [entry, setEntry] = useState({ title: "", amount: "", type: "" });
+  const [editingindex, setEditingindex] = useState(null);
+  const [editingtype, setEditingtype] = useState("");
 
-  const remainingbalance = () => {
-    const totalincome = income.reduce((sum, entry) => sum + parseFloat(entry.amount), 0);
+  const remainingBalance = () => {
+    const totalincome = income.reduce(
+      (sum, entry) => sum + parseFloat(entry.amount),
+      0
+    );
     const totalexpenses = expenses.reduce(
       (sum, entry) => sum + parseFloat(entry.amount),
       0
     );
     setBalance(totalincome - totalexpenses);
   };
-  const handelAddEntry = () => {
+  const handleAddEntry = () => {
     if (!entry.title || !entry.amount) return;
     const newEntry = {
       title: entry.title,
@@ -22,15 +28,15 @@ const Budget = () => {
       date: new Date(),
     };
     if (entry.type === "income") {
-      setIncome([...income, newEntry]);}
-      else{
+      setIncome([...income, newEntry]);
+    } else {
       setExpenses([...expenses, newEntry]);
     }
     setEntry({ title: "", amount: "", type: "" });
-    remainingbalance();
+    remainingBalance();
   };
 
-  const handelDeleteEntry = (type, index) => {
+  const handleDeleteEntry = (type, index) => {
     if (type === "income") {
       const updatedIncome = [
         ...income.slice(0, index),
@@ -44,10 +50,43 @@ const Budget = () => {
       ];
       setExpenses(updatedExpenses);
     }
-    };
-    useEffect(() => {
-      remainingbalance();
-    }, [income, expenses]);
+    remainingBalance();
+  };
+  useEffect(() => {
+    remainingBalance();
+  }, [income, expenses]);
+
+  const handleReset = () => {
+    setIncome([]);
+    setExpenses([]);
+    setBalance(0);
+    setEntry({ title: "", amount: "", type: "" });
+  };
+  const handelEditEntry = (index, type) => {
+    const entryToEdit = type === "income" ? income[index] : expenses[index];
+    setEntry({ ...entryToEdit });
+    setEditingindex(index);
+    setEditingtype(type);
+  };
+
+  const handelUpdateEntry = () => {
+    if (!entry.title || !entry.amount) return;
+
+    const updatedEntry = { ...entry, amount: parseFloat(entry.amount) };
+    if (editingtype === "income") {
+      const updatedIncome = [...income];
+      updatedIncome[editingindex] = updatedEntry;
+      setIncome(updatedIncome);
+    } else {
+      const updatedExpenses = [...expenses];
+      updatedExpenses[editingindex] = updatedEntry;
+      setExpenses(updatedExpenses);
+    }
+    setEditingindex(null);
+    setEditingtype("");
+    setEntry({ title: "", amount: "", type: "" });
+    remainingBalance();
+  };
 
   return (
     <div>
@@ -61,7 +100,7 @@ const Budget = () => {
               <p>
                 {item.title}:${item.amount}
               </p>
-              <button onClick={() => handelDeleteEntry("income", index)}>
+              <button onClick={() => handleDeleteEntry("income", index)}>
                 Delete
               </button>
             </div>
@@ -74,7 +113,7 @@ const Budget = () => {
               <p>
                 {item.title}:${item.amount}
               </p>
-              <button onClick={() => handelDeleteEntry("expenses", index)}>
+              <button onClick={() => handleDeleteEntry("expenses", index)}>
                 Delete
               </button>
             </div>
@@ -102,7 +141,13 @@ const Budget = () => {
           <option value="income">Income</option>
           <option value="expense">Expense</option>
         </select>
-        <button onClick={handelAddEntry}>Add</button>
+        <div className={styles.buttonGroup}>
+        <button onClick={editingindex !== null ? handelUpdateEntry : handleAddEntry}>
+            {editingindex !== null ? "Update" : "Add"}
+          </button>
+          
+          <button onClick={handleReset}>Reset</button>
+        </div>
       </div>
     </div>
   );

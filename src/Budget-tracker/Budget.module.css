@@ -26,6 +26,15 @@ button {
   font-family: "poppins";
   font-size: medium;
 
+
+
+  }
+  .buttonGroup {
+    display: flex;
+    gap: 10px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
   }
   input{
     text-align: center;
