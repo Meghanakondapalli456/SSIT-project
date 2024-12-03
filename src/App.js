@@ -1,41 +1,55 @@
 import "./App.css";
-import { Link } from 'react-router-dom';
-import { AboutUs } from "./Components/AboutUs/AboutUs";
-import Keyword from "./Keyword/Keyword";
-import News from "./News/News";
-import Webinar from "./Webinars/Webinar";
-import Whatwe from "./What-we-do/Whatwe";
-import Main from "./Main/Main";
-import Iphone from "./Iphone/Iphone";
-import Whatulearn from "./Whatulearn/Whatulearn";
-import Uxdesign from "./Ux-design/Uxdesign";
-import Workshop from "./Workshop/Workshop";
+//import { Link } from 'react-router-dom';
+import Head from "./Header/Head";
+//import { AboutUs } from "./Components/AboutUs/AboutUs";
+//import Keyword from "./Keyword/Keyword";
+//import News from "./News/News";
+//import Webinar from "./Webinars/Webinar";
+//import Whatwe from "./What-we-do/Whatwe";
+//import Main from "./Main/Main";
+//import Iphone from "./Iphone/Iphone";
+//import Whatulearn from "./Whatulearn/Whatulearn";
+//import Uxdesign from "./Ux-design/Uxdesign";
+//import Workshop from "./Workshop/Workshop";
 import Service from "./Service/Service";
-import Budget from "./Budget-tracker/Budget";
+//import Budget from "./Budget-tracker/Budget";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './Header/Home';
+import Aboutus from './Header/Aboutus';  
+import Services from './Header/Services';
+import News from './Header/News';     
 
 function App() {
-  console.log("budget component rendered");
+  //console.log("budget component rendered");
   return (
     <Router>
       <div className="App">
-      <nav>
-          <Link to="/budget-tracker"/>
+         <Head />
+      {/*<nav>
+      <Link to="/budget-tracker">Budget Tracker</Link>
+
           
         </nav>
-        <Routes>
-          {/*<Main />
+        <Routes>*
+          <Main />
       <AboutUs />
       <Whatwe />
       <Webinar />
       <News />
       <Keyword />
        <Iphone />
-      <Whatulearn /> 
-      <Service />*/}
-          <Route path="/budget-tracker" element={<Budget />} />
+      <Whatulearn /> */}
+      <Service />
+        {/* </div> <Route path="/budget-tracker" element={<Budget />} />
           
-        </Routes>
+        </Routes>*/}
+        <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<Aboutus />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/news" element={<News />} />
+      </Routes>
+       
       </div>
     </Router>
   );

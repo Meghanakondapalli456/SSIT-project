@@ -1,6 +1,8 @@
 import styles from "./Budget.module.css";
 import React, { useState, useEffect } from "react";
 
+
+
 const Budget = () => {
   const [income, setIncome] = useState([]);
   const [expenses, setExpenses] = useState([]);
@@ -61,8 +63,10 @@ const Budget = () => {
     setExpenses([]);
     setBalance(0);
     setEntry({ title: "", amount: "", type: "" });
+    setEditingindex(null); 
+  setEditingtype("");  
   };
-  const handelEditEntry = (index, type) => {
+  const handleEditEntry = (index, type) => {
     const entryToEdit = type === "income" ? income[index] : expenses[index];
     setEntry({ ...entryToEdit });
     setEditingindex(index);
@@ -100,7 +104,7 @@ const Budget = () => {
               <p>
                 {item.title}:${item.amount}
               </p>
-              <button onClick={() => handleDeleteEntry("income", index)}>
+              <button onClick={() => handleEditEntry("income", index)}>
                 Delete
               </button>
             </div>
