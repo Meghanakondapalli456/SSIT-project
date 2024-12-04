@@ -1,6 +1,7 @@
 import "./App.css";
+import Serv from "./Serv/Serv";
 //import { Link } from 'react-router-dom';
-import Head from "./Header/Head";
+//import Head from "./Header/Head";
 //import { AboutUs } from "./Components/AboutUs/AboutUs";
 //import Keyword from "./Keyword/Keyword";
 //import News from "./News/News";
@@ -11,7 +12,7 @@ import Head from "./Header/Head";
 //import Whatulearn from "./Whatulearn/Whatulearn";
 //import Uxdesign from "./Ux-design/Uxdesign";
 //import Workshop from "./Workshop/Workshop";
-import Service from "./Service/Service";
+//import Service from "./Service/Service";
 //import Budget from "./Budget-tracker/Budget";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Header/Home';
@@ -22,34 +23,34 @@ import News from './Header/News';
 function App() {
   //console.log("budget component rendered");
   return (
-    <Router>
+  <Router>
       <div className="App">
-         <Head />
-      {/*<nav>
+         {/* <Head />
+     <nav>
       <Link to="/budget-tracker">Budget Tracker</Link>
 
           
-        </nav>
-        <Routes>*
-          <Main />
+        </nav>*/}
+        <Routes>
+         {/* <Main />
       <AboutUs />
       <Whatwe />
       <Webinar />
       <News />
       <Keyword />
        <Iphone />
-      <Whatulearn /> */}
+      <Whatulearn />
       <Service />
-        {/* </div> <Route path="/budget-tracker" element={<Budget />} />
+        </div> <Route path="/budget-tracker" element={<Budget />} />*/}
           
-        </Routes>*/}
+        </Routes>
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Aboutus />} />
         <Route path="/services" element={<Services />} />
         <Route path="/news" element={<News />} />
       </Routes>
-       
+       <Serv />
       </div>
     </Router>
   );
