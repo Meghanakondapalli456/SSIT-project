@@ -14,19 +14,19 @@ const Serv = () => {
   ]
   const figure =[
     {
-      image:"/fig1.png", alt:"fig1",
+      image:"/fig1.png", altfig:"fig1",
       name:"lorem ipsum",
       des:"lorem ipsum",
       line:"______"
     },
     {
-      image:"/fig2.png", alt:"fig2",
+      image:"/fig2.png", altfig:"fig2",
       name:"lorem ipsum",
       des:"lorem ipsum",
       line:"______"
     },
     {
-      image:"/fig3.png", alt:"fig3",
+      image:"/fig3.png", altfig:"fig3",
       name:"lorem ipsum",
       des:"lorem ipsum",
       line:"______"
@@ -34,18 +34,18 @@ const Serv = () => {
   ]
   const design=[
     {
-      pic:"/pic.png", alt:"pic",
+      pic:"/pic.png", altpic:"pic",
       para:"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod vitae lorem mattis ut at at lobortis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod vitae lorem mattis ut at at lobortis..”",
       ipsum:"Lorem Ipsum",
       designer:"Designer",
-      quote:"/Quote .png", alt:"quote",
+      quote:"/Quote .png", altquote:"quote",
     }
   ]
   const dots=[
     {
-      img1:"dot1.png", alt:"dot1",
-      img2:"dot2.png",  alt:"dot2",
-      img3:"dot3.png",   alt:"dot3",
+      img1:"dot1.png", altimg1:"dot1",
+      img2:"dot2.png",  altimg2:"dot2",
+      img3:"dot3.png",   altimg3:"dot3",
     }
   ]
   return (
@@ -68,7 +68,7 @@ const Serv = () => {
         {figure.map((item,index)=>{
            return (
              <div key={index}>
-              <img src={item.image} alt={item.alt} />
+              <img src={item.image} alt={item.altfig} />
               <p>{item.name}</p>
               <p>{item.des}</p>
               <p>{item.line}</p>
@@ -84,11 +84,11 @@ const Serv = () => {
         {design.map((item,index)=>{
           return(
             <div key={index}>
-              <img src={item.pic} alt={item.alt} />
+              <img src={item.pic} alt={item.altpic} />
               <p>{item.para}</p>
               <p>{item.ipsum}</p>
               <p>{item.designer}</p>
-              <img src={item.quote} alt={item.alt} />
+              <img src={item.quote} alt={item.altquote} />
             </div>
           )
         })}
@@ -97,9 +97,9 @@ const Serv = () => {
         {dots.map((item,index)=>{
           return(
             <div key={index}>
-              <img src={item.img1} alt={item.alt}/>
-              <img src={item.img2} alt={item.alt}/>
-              <img src={item.img3} alt={item.alt}/>
+              <img src={item.img1} alt={item.altimg1}/>
+              <img src={item.img2} alt={item.altimg2}/>
+              <img src={item.img3} alt={item.altimg3}/>
             </div>
           )
         })}
