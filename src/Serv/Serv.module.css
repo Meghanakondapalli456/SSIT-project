@@ -1,0 +1,97 @@
+.container {
+  background-color: whitesmoke;
+  font-family: "popppins";
+}
+h1 {
+  font-family: "poppins";
+  font-weight: bold;
+}
+.coloring {
+  color: aqua;
+  font-family: "poppins";
+  font-weight: bold;
+}
+.title {
+  font-family: "poppins";
+  font-weight: bold;
+  text-align: left;
+  font-size: x-large;
+  margin-left: 100px;
+}
+.picture {
+  margin-top: 97px;
+  display: flex;
+  margin-left: 100px;
+}
+.describe {
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: medium;
+  text-align: justify;
+
+  margin-right: 115px;
+  margin-left: 100px;
+}
+.downarrow {
+  max-width: 25px;
+  max-height: 25px;
+}
+h2 {
+  font-family: "poppins";
+  font-weight: bold;
+}
+.display {
+  display: flex;
+  column-gap: 100px;
+}
+.servcard {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  max-width: 345px;
+  max-height: 461px;
+  padding: 30px 10px 50px 10px;
+  flex: 1;
+  gap: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name {
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: large;
+}
+.des {
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: medium;
+}
+.button {
+  max-width: 325px;
+  max-height: 63px;
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: large;
+  padding: 13px 50px;
+  border-radius: 10px;
+  margin-top: 137px;
+}
+.test h2 {
+  margin-top: 191px;
+  font-family: "poppins";
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+.test h3 {
+  margin-top: 21px;
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: medium;
+  color: lightslategray;
+  margin-left: auto;
+  margin-right: auto;
+}
