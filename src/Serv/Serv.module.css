@@ -95,3 +95,114 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+.designer {
+  background-color: white;
+  display: flex !important;
+  max-width: 1191px;
+  max-height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+.designing {
+  display: flex;
+  flex-direction: row;
+}
+.picto {
+  max-width: 392px;
+  max-height: 330px;
+  padding: 50px 41px 50px 49px;
+}
+.para {
+  margin-top: 50px;
+  font-family: "poppins";
+  text-align: justify;
+  font-weight: lighter;
+  margin-right: 118px;
+}
+.quotes {
+  width: 141px;
+  height: 126px;
+}
+.ipsum {
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: x-large;
+}
+.desi {
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: x-large;
+}
+.ipsumalt {
+  display: flex;
+  margin-top: 120px;
+  text-align: justify;
+  gap: 280px;
+}
+.colordot {
+  max-width: 30px;
+  max-height: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 72px;
+  gap: 30px;
+}
+.faq h3 {
+  font-family: "poppins";
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 181px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vitae {
+  font-family: "poppins";
+  font-size: large;
+  font-weight: lighter;
+  margin-top: 21px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.volupat {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.volupat p {
+  font-family: "poppins";
+  font-size: larger;
+  font-weight: bold;
+
+  text-align: center;
+}
+.sym {
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.altsymbol {
+  text-align: justify;
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: large;
+ 
+}
+.tortor{
+  max-width: 891px;
+  max-height: 142px;
+  margin-top: 50px;
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: medium;
+  text-align: justify;
+  justify-content: center;
+ 
+  
+}

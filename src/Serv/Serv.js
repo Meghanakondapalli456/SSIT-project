@@ -3,7 +3,6 @@ import Head from "../Header/Head";
 import styles from "./Serv.module.css";
 import Servcard from "./Servcard";
 
-
 const Serv = () => {
   const smalldata = [
     {
@@ -100,7 +99,7 @@ const Serv = () => {
 
       <div className={styles.display}>
         {figure.map((item, index) => {
-          return <Servcard key={`Servcard-${index}`} {...item} />
+          return <Servcard key={`Servcard-${index}`} {...item} />;
         })}
       </div>
       <button className={styles.button}>Hire Us</button>
@@ -108,18 +107,36 @@ const Serv = () => {
         <h2>Testimonials</h2>
         <h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id volutpat
-          tristique vitae nibh. Etiam suscipit sed ultricies tortor a,{" "}
+          tristique vitae nibh. Etiam suscipit sed ultricies tortor a,
         </h3>
       </div>
-      <div>
+      <div className={styles.designer}>
         {design.map((item, index) => {
           return (
-            <div key={index}>
-              <img src={item.pic} alt={item.altpic} />
-              <p>{item.para}</p>
-              <p>{item.ipsum}</p>
-              <p>{item.designer}</p>
-              <img src={item.quote} alt={item.altquote} />
+            <div key={index} className={styles.designing}>
+              <div className={styles.pictures}>
+                <img
+                  src={item.pic}
+                  alt={item.altpic}
+                  className={styles.picto}
+                />
+              </div>
+              <div className={styles.info}>
+                <p className={styles.para}>{item.para}</p>
+                <div className={styles.ipsumalt}>
+                  <div className={styles.ipsumdesi}>
+                    <p className={styles.ipsum}>{item.ipsum}</p>
+                    <p className={styles.desi}>{item.designer}</p>
+                  </div>
+                  <div className={styles.quotealt}>
+                    <img
+                      src={item.quote}
+                      alt={item.altquote}
+                      className={styles.quotes}
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           );
         })}
@@ -127,54 +144,54 @@ const Serv = () => {
       <div>
         {dots.map((item, index) => {
           return (
-            <div key={index}>
-              <img src={item.img1} alt={item.altimg1} />
-              <img src={item.img2} alt={item.altimg2} />
+            <div key={index} className={styles.colordot}>
+              <img src={item.img1} alt={item.altimg1}  />
+              <img src={item.img2} alt={item.altimg2}  />
               <img src={item.img3} alt={item.altimg3} />
             </div>
           );
         })}
       </div>
-      <div>
+      <div className={styles.faq}>
         <h3>FAQ</h3>
-        <p>
+        <p className={styles.vitae}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id volutpat
-          tristique vitae nibh. Etiam suscipit sed ultricies tortor a,{" "}
+          tristique vitae nibh. Etiam suscipit sed ultricies tortor a,
         </p>
       </div>
-      <div>
+      <div className={styles.volupat}>
         {pretium.map((item, index) => {
           return (
-            <div key={index}>
+            <div key={index} className={styles.ornare}>
               <p>{item.ornare}</p>
-              <h4>
+              <h4 className={styles.tortor}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
                 volutpat tristique vitae nibh. Etiam suscipit sed ultricies
                 tortor a, tristique vitae nibh. Etiam suscipit sed ultricies
-                tortor a,{" "}
+                tortor a,
               </h4>
             </div>
           );
         })}
         {sub.map((item, index) => {
           return (
-            <div key={index}>
+            <div key={index} className={styles.sym}>
               <p>{item.sym}</p>
             </div>
           );
         })}
       </div>
-      <div>
+      <div className={styles.altsymbol}>
         {reusedpretium.map((item, index) => {
           return (
-            <div key={index}>
+            <div key={index} className={styles.ornares}>
               <p>{item.ornare}</p>
             </div>
           );
         })}
         {reusedadd.map((item, index) => {
           return (
-            <div key={index}>
+            <div key={index} className={styles.symbol}>
               <p>{item.symbol}</p>
             </div>
           );
