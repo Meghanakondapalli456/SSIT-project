@@ -32,7 +32,7 @@ function App() {
           
         </nav>*/}
         <Routes>
-         {/* <Main />
+        {/*}  <Main />
       <AboutUs />
       <Whatwe />
       <Webinar />
@@ -51,6 +51,7 @@ function App() {
         <Route path="/news" element={<News />} />
       </Routes>
        <Serv />
+      
       </div>
     </Router>
   );

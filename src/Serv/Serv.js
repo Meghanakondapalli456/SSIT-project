@@ -2,6 +2,7 @@ import React from "react";
 import Head from "../Header/Head";
 import styles from "./Serv.module.css";
 import Servcard from "./Servcard";
+import Keyword from "../Keyword/Keyword";
 
 const Serv = () => {
   const smalldata = [
@@ -192,11 +193,14 @@ const Serv = () => {
         {reusedadd.map((item, index) => {
           return (
             <div key={index} className={styles.symbol}>
-              <p>{item.symbol}</p>
+              <p className={styles.addition}>{item.symbol}</p>
             </div>
           );
         })}
       </div>
+      <Keyword />
+     
+     
     </div>
   );
 };
