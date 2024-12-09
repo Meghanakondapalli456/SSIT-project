@@ -183,6 +183,7 @@ const Serv = () => {
         })}
       </div>
       <div className={styles.altsymbol}>
+        <div className={styles.sideheading}>
         {reusedpretium.map((item, index) => {
           return (
             <div key={index} className={styles.ornares}>
@@ -190,6 +191,8 @@ const Serv = () => {
             </div>
           );
         })}
+        </div>
+        <div className={styles.additional}>
         {reusedadd.map((item, index) => {
           return (
             <div key={index} className={styles.symbol}>
@@ -197,6 +200,7 @@ const Serv = () => {
             </div>
           );
         })}
+        </div>
       </div>
       <Keyword />
      
