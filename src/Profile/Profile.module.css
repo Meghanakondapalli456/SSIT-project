@@ -1,0 +1,118 @@
+.roundpic {
+  display: flex;
+  position: relative;
+  bottom: 210px;
+  margin-left: 99px;
+}
+p {
+  display: flex;
+  margin-left: 140px;
+  position: relative;
+  bottom: 220px;
+  font-size: xx-large;
+  font-family: "poppins";
+  font-weight: bold;
+}
+.colouring {
+  color: aqua;
+}
+.pentagon {
+  position: relative;
+  bottom: 295px;
+  display: flex;
+  margin-left: 330px;
+  max-width: 40px;
+  max-height: 40px;
+}
+.wrapper h3 {
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: x-large;
+  position: relative;
+  bottom: 290px;
+  display: flex;
+  margin-left: 150px;
+  color: lightgray;
+}
+.wrapper h4 {
+  position: relative;
+  bottom: 290px;
+  margin-left: 130px;
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: large;
+  text-align: justify;
+  margin-right: 243px;
+}
+.card {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  bottom: 200px;
+  text-align: justify;
+  margin-left: 120px;
+}
+.imagemater {
+  display: flex;
+  gap: 60px;
+}
+.image {
+  max-width: 50px;
+  max-height: 50px;
+}
+.mater {
+  margin-left: 5px;
+  font-family: "poppins";
+  font-weight: lighter;
+  font-size: medium;
+  position: relative;
+  bottom: 10px;
+  word-spacing: 5px;
+}
+.courses h3 {
+  color: black;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  width: 300px;
+  height: 400px;
+  color: white;
+  gap: 30px;
+  margin-left: 102px;
+  border-radius: 30px;
+  flex: 1;
+}
+.verticalline {
+  width: 2px;
+  background-color: aqua;
+  height: 15%;
+  position: relative;
+  bottom: 150px;
+  margin-left: 41px;
+}
+.course{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: medium;
+}
+.language{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: medium; 
+}
+.author{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: medium; 
+    
+}
+.information{
+   position: relative;
+   bottom: 50px;
+  margin-left: -70px;
+}

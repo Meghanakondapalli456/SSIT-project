@@ -1,5 +1,6 @@
 import "./App.css";
-import Serv from "./Serv/Serv";
+import Profile from "./Profile/Profile";
+//import Serv from "./Serv/Serv";
 //import { Link } from 'react-router-dom';
 //import Head from "./Header/Head";
 //import { AboutUs } from "./Components/AboutUs/AboutUs";
@@ -31,8 +32,8 @@ function App() {
 
           
         </nav>*/}
-        <Routes>
-        {/*}  <Main />
+         <Routes>
+         {/*<Main />
       <AboutUs />
       <Whatwe />
       <Webinar />
@@ -50,8 +51,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/news" element={<News />} />
       </Routes>
-       <Serv />
-      
+       {/* <Serv />*/}
+      <Profile />
       </div>
     </Router>
   );
