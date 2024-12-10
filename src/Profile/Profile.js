@@ -55,7 +55,12 @@ const Profile = () => {
       language: "Data Science",
       author: "by Narayan",
     },
-  ];
+  ]
+  const workshops=[
+    {
+        
+    }
+  ]
 
   return (
     <div className={styles.wrapper}>
@@ -92,6 +97,9 @@ const Profile = () => {
         {courseprofile.map((item, index) => {
           return <Profilecard key={`profile-${index}`} {...item} />;
         })}
+      </div>
+      <div className={styles.workshops}>
+        <h3>Workshops</h3>
       </div>
     </div>
   );

@@ -72,13 +72,14 @@ p {
 .courses h3 {
   color: black;
   position: relative;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 120px;
 }
 .cards {
   display: grid;
   grid-template-columns: auto auto auto auto;
-
+position: relative;
+bottom: 230px;
   width: 300px;
   height: 400px;
   color: white;
