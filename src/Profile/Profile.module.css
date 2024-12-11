@@ -117,3 +117,63 @@ bottom: 230px;
    bottom: 50px;
   margin-left: -70px;
 }
+.work h3{
+  position: relative;
+  margin-top: 200px;
+  color: black;
+  margin-left: 100px;
+}
+.picto{
+  width: 633px;
+  height: 489px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+
+  
+}
+.workshop{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.verticallines{
+  width: 2px;
+  background-color: white;
+  height: 15%;
+  position: relative;
+  bottom: 450px;
+  margin-left: 70px;
+}
+.working{
+  margin-left: 97px;
+  position: relative;
+  bottom: 250px;
+}
+.imagination{
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  font-family:"poppins";
+  position: relative;
+  bottom: 35pc;
+  text-align: justify;
+  margin-right: 170px;
+}
+.authors{
+  color: white;
+  font-size: medium;
+  font-weight: lighter;
+  font-family:"poppins";
+  position: relative;
+  bottom: 35pc;
+  text-align: justify;
+  margin-right: 170px;
+}
+.playfillcircle{
+  display: grid;
+  grid-template-columns: auto auto ;
+  position: relative;
+  bottom: 20pc;
+  margin-left: 50px;
+  gap: 400px;
+}

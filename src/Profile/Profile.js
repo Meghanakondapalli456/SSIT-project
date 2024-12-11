@@ -2,6 +2,9 @@ import React from "react";
 import Head from "../Header/Head";
 import styles from "./Profile.module.css";
 import Profilecard from "./Profilecard";
+import Profileworkshop from "./Profileworkshop";
+import Keyword from "../Keyword/Keyword";
+
 
 const Profile = () => {
   const reviews = [
@@ -58,8 +61,20 @@ const Profile = () => {
   ]
   const workshops=[
     {
-        
-    }
+     picto:"/teaching.png", 
+     imagination:"Not Humans its all about technology that what leads in the future..", 
+     authors:"by Edvard Brown",
+     playfill:"/play-fill.png",
+     circle:"/right-circle-fill.png"
+    },
+
+    {
+      picto:"/image.png", 
+      imagination:"Gaming is the world of imagination where all the developers design their own world", 
+      authors:"by Edvard Brown",
+      playfill:"/play-fill.png",
+      circle:"/right-circle-fill.png"
+     },
   ]
 
   return (
@@ -98,9 +113,15 @@ const Profile = () => {
           return <Profilecard key={`profile-${index}`} {...item} />;
         })}
       </div>
-      <div className={styles.workshops}>
-        <h3>Workshops</h3>
+      <div className={styles.work}>
+      <h3>Workshops</h3>
       </div>
+      <div className={styles.workshop}>
+         {workshops.map((item, index) => {
+        return <Profileworkshop  key={`profileworkshop-${index}`}{...item}/>
+      })}
+      </div>
+      <Keyword />
     </div>
   );
 };
