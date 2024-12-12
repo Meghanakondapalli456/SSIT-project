@@ -17,7 +17,7 @@ const Keyword = () => {
             </div> );
           })}
         </div>
-        <div className={styles.verticalline1}></div>
+        <div className={styles.verticalline}></div>
       </div>
       <div className={styles.searchbar}>
         <div className={styles.search}>
@@ -31,7 +31,7 @@ const Keyword = () => {
           <div>Go to our official Announcements</div>
         </div>
       </div>
-      <div className={styles.verticalline2}></div>
+      <div className={styles.verticalline}></div>
       
       <div className={styles.ipsum}>
         <div className={styles.requirement}>
