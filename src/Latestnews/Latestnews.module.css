@@ -87,5 +87,167 @@ h6{
     height: 180px;
     position: relative;
     bottom: 920px;
-    margin-left: 600px; 
+    margin-left: 1150px; 
+}
+.card1{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: justify;
+    gap: 60px;
+    
+}
+.card{
+    max-width: 1130px;
+    max-height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 500px;
+}
+.text{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: x-large;
+}
+.industry{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size:medium; 
+}
+.information{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top:80px;
+   
+}
+.Name{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size:medium; 
+}
+.year{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size:medium; 
+    position: relative;
+    bottom: 20px;
+}
+.info{
+    margin-right: 250px;
+    position: relative;
+    bottom: 10px;
+}
+.newscard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 333px;
+    max-height: 672px;
+    row-gap: 133px;
+    gap: 84px;
+    margin-left: 136px;
+    margin-right: 136px;
+    position: relative;
+    bottom: 300px;
+}
+.picdata{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img{
+    max-width: 333px;
+    max-height: 306px;
+}
+.txt{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: large; 
+    text-align: justify;
+}
+.indus{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size:medium; 
+    text-align: justify;
+}
+.pic{
+    position: relative;
+   top: 20px;
+}
+.here{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: medium; 
+    text-align: justify; 
+}
+.date{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: medium; 
+    text-align: justify;  
+    position: relative;
+    bottom: 20px;
+}
+.datahere{
+    position: relative;
+    top: 10px;
+   
+}
+.loops{
+    position: relative;
+    top: 500px;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: justify;
+    max-width: 1168px;
+    max-height: 202px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.mail{
+    display: grid;
+    grid-template-columns: auto auto; 
+    background-color: white;
+    max-width: 371px;
+    max-height: 48px;
+    position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 50px;
+  border-radius: 10px;
+  
+}
+.loop{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: x-large; 
+}
+.spam{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: small; 
+    max-width: 526px;
+    max-height: 48px;
+   
+}
+.spamloop{
+    margin-left: 60px;
+}
+.button{
+    background-color: #42BDEC;
+    border: none;
+    color: white;
+    max-width: 101px;
+    max-height: 37px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    
+}
+.email{
+    margin-left: 10px;
+    font-family: "poppins";
+    font-size: medium;
+
 }

@@ -1,5 +1,5 @@
 import "./App.css";
-import Profile from "./Profile/Profile";
+//import Profile from "./Profile/Profile";
 //import Serv from "./Serv/Serv";
 //import { Link } from 'react-router-dom';
 //import Head from "./Header/Head";
