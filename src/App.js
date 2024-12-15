@@ -20,7 +20,8 @@ import Home from './Header/Home';
 import Aboutus from './Header/Aboutus';  
 import Services from './Header/Services';
 import News from './Header/News';     
-import Latestnews from "./Latestnews/Latestnews";
+import Newsupdate from "./Newsupdate/Newsupdate";
+//import Latestnews from "./Latestnews/Latestnews";
 
 function App() {
   //console.log("budget component rendered");
@@ -53,8 +54,9 @@ function App() {
         <Route path="/news" element={<News />} />
       </Routes>
        {/* <Serv />
-      <Profile />*/}
-      <Latestnews />
+      <Profile />
+      <Latestnews />*/}
+      <Newsupdate />
       </div>
     </Router>
   );

@@ -1,0 +1,30 @@
+.space{
+    margin-top: 80px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+text-align: justify;
+margin-left: 130px;
+font-family: "poppins";
+font-size: x-large;
+font-weight: bold;
+
+}
+.paraimages{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 220px;
+}
+.paragraph{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: large;
+    margin-right: 90px;
+}
+.images{
+    max-width: 50px;
+    min-height: 50px;
+    
+}
