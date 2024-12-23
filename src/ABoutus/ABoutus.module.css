@@ -1,0 +1,62 @@
+.color{
+    color: aqua;
+}
+.heading{
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: xx-large;
+    position: relative;
+    top: 140px;
+   text-align: left;
+   margin-left: 105px;
+}
+.para{
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: medium;
+    position: relative;
+    top: 160px;
+    text-align: left;
+   margin-left: 105px;
+   margin-right: 850px;
+   color: gray;
+   line-height:2;
+   color: black;
+}
+.bill{
+ position: relative;
+ bottom: 400px;
+ margin-left: 800px;
+}
+
+.meet{
+    position:relative;
+    bottom: 300px;
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+    margin-left: 105px;
+}
+.meeting{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    bottom: 200px;
+}
+.type{
+    font-family: "poppins";
+    font-weight:bold ;
+    font-size:large;
+    margin-left: 65px;
+    width: 267px;
+    text-align: justify;
+}
+.info{
+    font-family: "poppins";
+    font-weight:lighter ;
+    font-size:large;
+    margin-left: 65px;
+    width: 267px;
+    text-align: justify;  
+}
