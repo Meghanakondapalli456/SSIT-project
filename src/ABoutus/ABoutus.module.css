@@ -60,3 +60,53 @@
     width: 267px;
     text-align: justify;  
 }
+.engaged{
+    background-color: black;
+    color: white;
+}
+.who{
+    text-align: center;
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    top: 30px;
+}
+.partner{
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align:inherit;
+  font-family: "poppins";
+  position: relative;
+  margin-top: 50px;
+  font-size: medium;
+}
+.cyber{
+    display: flex;
+    margin-left: 262px;
+    margin-right: 262px;
+    gap: 54px;
+    position: relative;
+    margin-top: 40px;
+   
+}
+.picture{
+    max-width: 142px;
+    max-height: 48px;
+    
+}
+.universe{
+  width: 124px;
+   height: 58px;
+   position: relative;
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
+.mail{
+    position: relative;
+    bottom: 300px;
+}
+.keyword{
+    position: relative;
+    top: 400px;   
+}

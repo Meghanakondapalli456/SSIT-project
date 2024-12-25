@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from '../Header/Head'
 import styles from './ABoutus.module.css'
+import Mail from '../Latestnews/Mail'
+import Keyword from "../Keyword/Keyword";
 
 const ABoutus = () => {
   const data =[
@@ -20,6 +22,27 @@ const ABoutus = () => {
       image:"/meet3.png",
       type:"Lorem Ipsum is simply dummy text of the printing and typesetting ",
       info:"(CTO) Krishnan gopal"
+    },
+  ]
+  const x=[
+    {
+      picture:"/l2 1.png"
+    },
+
+    {
+      picture:"/l3 1.png"
+    },
+
+    {
+      picture:"/l6 1.png"
+    },
+
+    {
+      picture:"/l4 1.png"
+    },
+
+    {
+      picture:"/l5 1.png"
     },
   ]
   return (
@@ -51,6 +74,24 @@ const ABoutus = () => {
             </div>
         })}
         </div>
+        <div className={styles.engaged}>
+          <p className={styles.who}>Who we are engaged with...</p>
+          <p className={styles.partner}>We partner with humble, trusting leaders that think strategically. Businessmen and women who believe in the change they’re making, embrace their mission and want to bring in a partner to accelerate their growth.</p>
+         <div className={styles.cyber}>
+          {x.map((item,index)=>{
+            return <div key={index}>
+              <img src={item.picture} className={styles.picture}/>
+              </div>
+          })}
+        </div>
+        <img  src="/uc 1.png" className={styles.universe}/>
+        </div>
+        <div className={styles.mail}>
+       <Mail />
+       </div>
+       <div className={styles.keyword}>
+       <Keyword />
+       </div>
     </div>
   )
 }
