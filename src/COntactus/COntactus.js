@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from '../Header/Head'
 import styles from './COntactus.module.css'
+import Keyword from "../Keyword/Keyword";
 
 const COntactus = () => {
   return (
@@ -22,15 +23,28 @@ const COntactus = () => {
             <img src='/blur image.png' className={styles.blur}/>
             <div className={styles.info}>
                 <div className={styles.redball}>
-                <img src='/redball.png'/>
+                <img src='/redball.png' className={styles.ball}/>
                 </div>
                 <div className={styles.address}>
                   <p className={styles.adrs}>Address</p>
                   <p className={styles.place}>No 7, Katherine Place, Melbourne 3000,
                   VIC Australia</p>
+                
+                  </div>
                 </div>
-            </div>
         </div>
+       
+      </div>
+      <hr />
+      <p className={styles.num}>+61 420 992 332</p>
+      <p className={styles.com}>info@afq.com.au</p>
+      <p className={styles.www}>www.afqtech.com.au</p>
+        <Keyword  className={styles.keyword}/>
+        <div>
+          <img src="/success.png" />
+          <div>
+            <img src="/right.png" />
+          </div>
         </div>
     </div> 
   )
