@@ -20,8 +20,9 @@ import Home from './Header/Home';
 import Aboutus from './Header/Aboutus';  
 import Services from './Header/Services';
 import News from './Header/News';     
+import Sence from "./Sence/Sence";
 //import ABoutus from "./ABoutus/ABoutus";
-import COntactus from "./COntactus/COntactus";
+//import COntactus from "./COntactus/COntactus";
 //import Newsupdate from "./Newsupdate/Newsupdate";
 //import Latestnews from "./Latestnews/Latestnews";
 
@@ -59,8 +60,9 @@ function App() {
       <Profile />
       <Latestnews />
       <Newsupdate />
-      <ABoutus />*/}
-      <COntactus />
+      <ABoutus />
+      <COntactus />*/}
+      <Sence />
       </div>
     </Router>
   );

@@ -41,9 +41,22 @@ const COntactus = () => {
       <p className={styles.www}>www.afqtech.com.au</p>
         <Keyword  className={styles.keyword}/>
         <div>
-          <img src="/success.png" />
-          <div>
-            <img src="/right.png" />
+          <img src="/success.png"  className={styles.success}/>
+          <div className={styles.card}>
+            <img src="/right.png" className={styles.right} />
+            <p className={styles.green}>Success</p>
+            <p className={styles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p>
+            <button className={styles.continue}>continue</button>
+          </div>
+        </div>
+
+        <div>
+          <img src="/success.png"  className={styles.success1}/>
+          <div className={styles.cards}>
+            <img src="/wrong.png" className={styles.wrong} />
+            <p className={styles.red}>Error</p>
+            <p className={styles.paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p>
+            <button className={styles.try}>Try Again</button>
           </div>
         </div>
     </div> 
