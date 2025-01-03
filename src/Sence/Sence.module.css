@@ -1,0 +1,56 @@
+.ssitimg{
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+
+}
+
+@media (min-width: 1462px) and (max-width: 1462px) {
+    img {
+      max-width: 100%;
+    }
+}
+.edu{
+ color  :white;
+ text-align:center;
+ position: relative;
+ bottom:620px;
+ font-family: "poppins";
+ font-size: xx-large;
+ margin-left: 350px;
+ margin-right: 400px;
+ font-weight: bold;
+}
+.sense{
+  color: #16C3FF;
+  font-family:" Geneva";
+  margin-left: 300px;
+  margin-right: 400px;
+  font-weight: bold;
+}
+.btn{
+  background-color: white;
+  position: relative;
+  bottom: 500px;
+  max-width: 221px;
+  max-height: 63px;
+  padding:5px 10px;
+  font-family: "poppins";
+  font-size: small;
+  border: none;
+  border-radius: 5px;
+ margin-right: 50px;
+}
+
+.image{
+  position: relative;
+top: 245px;
+}
+.card{
+  position: relative;
+  bottom: 260px;
+}
+.Head{
+  position: relative;
+  bottom: 950px;
+}
